@@ -1,1 +1,37 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left-des-dan {
+  background-color: #222831;
+  height: 100vh;
+  width: 3vw;
+  float: left;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.header-dan {
+  background-color: #222831;
+  min-height: 10vh;
+  width: 80vw;
+  margin: 0;
+}
+.header-dan a {
+  color: #eeeeee;
+}
+.header-dan a a:hover {
+  color: aqua;
+}
+
+.latest-blog-dan {
+  min-height: 70vh;
+  background-color: lightblue;
+}
+
+footer {
+  height: 50vh;
+}/*# sourceMappingURL=style.css.map */
