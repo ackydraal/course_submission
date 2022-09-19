@@ -23,8 +23,8 @@
 .header-dan a {
   color: #eeeeee;
 }
-.header-dan a a:hover {
-  color: aqua;
+.header-dan a:hover {
+  color: #00ADB5;
 }
 
 .latest-blog-dan {
