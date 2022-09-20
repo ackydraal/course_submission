@@ -1,18 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Awesome cars for crazy people!">
-    <meta name="keywords" content="awesome cars, cars, crazy cars, best cars, car shop">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <meta name="keywords" content="awesome cars, good cars, crazy cars, best cars, car shop">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <title>Crazy Cars</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <p>navbar</p>
+        <nav class="navbar navbar-expand-lg bg-light p-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../assets/images/crazycars-logo.png" class="logo-jim img-fluid" alt="crazycars logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Sport Cars</a></li>
+                                <li><a class="dropdown-item" href="#">SUV's</a></li>
+                                <li><a class="dropdown-item" href="#">Old Cars</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#">About</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 active" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="search-area">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search"/>
+                    </div>
+                    <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+                        <li class="nav-item">
+                            <a class="nav-link ps-3" href="#!">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3" href="#!">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ps-3" href="#!">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -23,5 +80,8 @@
     <footer>
         <p>footer</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 </html>
