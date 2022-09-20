@@ -19,10 +19,6 @@
   min-height: 10vh;
   width: 80vw;
 }
-.header-dan .navbar-dan {
-  margin: 0 auto;
-  width: 40vw;
-}
 .header-dan a {
   color: #eeeeee;
 }
@@ -39,10 +35,6 @@
 footer {
   height: 20vh;
   background-color: lightgreen;
-}
-
-.test1 {
-  color: red;
 }
 
 /* Media queries */
