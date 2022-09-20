@@ -23,13 +23,18 @@
     background-color: #222831;
     min-height: 10vh;
     width: 80vw;
-    margin: 0;
+
+    .navbar-dan {
+        margin: 0 auto;
+        width: 40vw;
+    }
 
     a {
         color: #eeeeee;
     }
     a:hover {
         color: #00ADB5;
+        transform: scale(1.1);
     }
 }
 
@@ -40,5 +45,30 @@
 }
 
 footer {
-    height: 50vh;
+    height: 20vh;
+    background-color: lightgreen;
 }
+
+.test1 {
+    color: red;
+}
+
+/* Media queries */
+
+/* For larger screen size from 992px wide and down */
+// @media screen and (max-width: 992px) {
+//     .menu-dan {
+//         width: 100%;
+//         float: right;
+//         text-align: end;
+
+//         ul {
+//             float: right;
+//         }
+
+//         a:hover {
+//             color: #00ADB5;
+//             transform: none;
+//         }
+//     }
+// }

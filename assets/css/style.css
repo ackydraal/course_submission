@@ -18,13 +18,17 @@
   background-color: #222831;
   min-height: 10vh;
   width: 80vw;
-  margin: 0;
+}
+.header-dan .navbar-dan {
+  margin: 0 auto;
+  width: 40vw;
 }
 .header-dan a {
   color: #eeeeee;
 }
 .header-dan a:hover {
   color: #00ADB5;
+  transform: scale(1.1);
 }
 
 .latest-blog-dan {
@@ -33,5 +37,13 @@
 }
 
 footer {
-  height: 50vh;
-}/*# sourceMappingURL=style.css.map */
+  height: 20vh;
+  background-color: lightgreen;
+}
+
+.test1 {
+  color: red;
+}
+
+/* Media queries */
+/* For larger screen size from 992px wide and down *//*# sourceMappingURL=style.css.map */
