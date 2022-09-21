@@ -28,6 +28,12 @@
   text-align: center;
 }
 
+.img-jim {
+  background: url(../images/contact-img.jpg) no-repeat;
+  width: 100%;
+  height: auto;
+}
+
 .h1-jim {
   font-size: 46px;
   background-color: #00ADB5;
@@ -35,6 +41,20 @@
   color: white;
   text-shadow: 1px 1px 2px black;
   padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.icon-jim {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  background: #00ADB5;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.bold-text-jim {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 500px) {
