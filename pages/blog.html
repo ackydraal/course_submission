@@ -56,48 +56,56 @@
         </nav>
     </header>
 
-	<main class="container-fluid w-100 articles-dan">
+	<main class="container-fluid  articles-dan py-3">
         <article class="container latest-article-dan">
-            <div class="card bg-dark text-white">
-				<img src="../assets/images/car-one-dan.jpg" class="card-img" alt="...">
-				<div class="card-img-overlay">
-				  <h1 class="card-title">Card title</h1>
-				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-				  <p class="card-text">Last updated 3 mins ago</p>
-				  <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card bg-dark mb-2">
+				<img src="../assets/images/car-one-dan.jpg" class="card-img d-none d-sm-block" alt="...">
+				<div class="card-img-overlay d-flex flex-column">
+					<h1 class="card-title align-self-start">top 10 sports car in 2022 - big guide</h1>
+					<p class="card-text">Last updated 3 mins ago</p>
+					<p class="card-text d-none d-md-block align-self-center my-auto">
+						This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+					</p>
+				  	<a href="#" class="btn btn-primary align-self-sm-end mt-auto">Read article!</a>
 				</div>
-			  </div>
+			</div>
         </article>
-        <nav class="container nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Active</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
-            <a class="flex-sm-fill text-sm-center nav-link disabled">Disabled</a>
-        </nav>
+        <div class="container nav-scroller py-1">
+            <nav class="nav d-flex justify-content-between category-dan">
+            	<a class="p-2" href="#">Ferrari</a>
+                <a class="p-2" href="#">Lamborghini</a>
+                <a class="p-2" href="#">Mercedes</a>
+                <a class="p-2" href="#">BMW</a>
+                <a class="p-2" href="#">Audi</a>
+                <a class="p-2" href="#">Bugatti</a>
+                <a class="p-2" href="#">Ford</a>
+                <a class="p-2" href="#">Porsche</a>
+            </nav>
+        </div>
     </main>
 
     <section class="m-4">
         <article class="container mx-auto">
 			<div class="card mb-3">
 				<div class="row g-0">
-				  <div class="col-md-4">
-					<img src="..." class="img-fluid rounded-start" alt="...">
-				  </div>
-				  <div class="col-md-8">
-					<div class="card-body">
-					  <h5 class="card-title">Card title</h5>
-					  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					<div class="col-md-4">
+						<img src="..." class="img-fluid rounded-start" alt="...">
 					</div>
-				  </div>
+					<div class="col-md-8">
+						<div class="card-body">
+						<h5 class="card-title">best sports car in 2022 - big guide</h5>
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
 				</div>
-			  </div>
+			</div>
         </article>
 
     </section>
 
-    <footer>
+    <footer class="container">
 		Footer
 	</footer>
 

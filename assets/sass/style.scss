@@ -27,7 +27,21 @@
 }
 
 .latest-article-dan {
+    text-transform: capitalize;
     color: #eeeeee;
+    min-height: 25vh;
+}
+
+.category-dan {
+    
+
+    a {
+        color: #eeeeee;
+    }
+
+    a:hover {
+        color: #00ADB5;
+    }
 }
 
 footer {
