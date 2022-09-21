@@ -4,20 +4,9 @@
   box-sizing: border-box;
 }
 
-.left-des-dan {
-  background-color: #222831;
-  height: 100vh;
-  width: 3vw;
-  float: left;
-  position: absolute;
-  left: 0;
-  z-index: -1;
-}
-
 .header-dan {
   background-color: #222831;
   min-height: 10vh;
-  width: 80vw;
 }
 .header-dan a {
   color: #eeeeee;
@@ -27,15 +16,24 @@
   transform: scale(1.1);
 }
 
-.latest-blog-dan {
-  min-height: 70vh;
-  background-color: lightblue;
+.articles-dan {
+  background-color: #222831;
+}
+
+.latest-article-dan {
+  color: #eeeeee;
 }
 
 footer {
   height: 20vh;
-  background-color: lightgreen;
+  background-color: #eeeeee;
 }
 
 /* Media queries */
-/* For larger screen size from 992px wide and down *//*# sourceMappingURL=style.css.map */
+/* For larger screen size from 992px wide and down */
+@media screen and (max-width: 992px) {
+  .menu-dan a:hover {
+    color: #00ADB5;
+    transform: none;
+  }
+}/*# sourceMappingURL=style.css.map */

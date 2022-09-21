@@ -11,15 +11,14 @@
     <title>Crazy Cars</title>
 </head>
 <body class="body-dan">
-	<div class="left-des-dan"></div>
 
-    <header class="container-fluid d-flex header-dan">
-        <nav class="container navbar navbar-expand-lg flex-lg-row flex-column">
+    <header class="container-fluid d-flex justify-content-center header-dan">
+        <nav class="container navbar navbar-expand-lg flex-lg-row flex-column px-3">
 			<div class="col-lg-3 col-12 py-2">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<a class="navbar-brand m-3" href="#">Crazy Cars</a>
+				<a class="navbar-brand" href="#">Crazy Cars</a>
 			</div>
 			<div class="col-lg-6 col-12 py-2">
 				<div class="collapse navbar-collapse menu-dan" id="navbarSupportedContent">
@@ -57,16 +56,17 @@
         </nav>
     </header>
 
-	<main class="container-fluid w-100">
-        <article class="container latest-blog-dan">
-            <h1>Buy three cars pay for two!</h1>
-            <img src="" alt="">
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Id eveniet officiis cumque ab laboriosam deserunt. Fugiat facere, 
-                sit accusamus dolore, molestias asperiores dolores eveniet natus 
-                dolor ipsam nostrum porro veniam.
-            </p>
+	<main class="container-fluid w-100 articles-dan">
+        <article class="container latest-article-dan">
+            <div class="card bg-dark text-white">
+				<img src="../assets/images/car-one-dan.jpg" class="card-img" alt="...">
+				<div class="card-img-overlay">
+				  <h1 class="card-title">Card title</h1>
+				  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				  <p class="card-text">Last updated 3 mins ago</p>
+				  <a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			  </div>
         </article>
         <nav class="container nav nav-pills flex-column flex-sm-row">
             <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Active</a>
@@ -76,24 +76,30 @@
         </nav>
     </main>
 
-    <section>
-        <aside>
-
-        </aside>
-        <article>
-
+    <section class="m-4">
+        <article class="container mx-auto">
+			<div class="card mb-3">
+				<div class="row g-0">
+				  <div class="col-md-4">
+					<img src="..." class="img-fluid rounded-start" alt="...">
+				  </div>
+				  <div class="col-md-8">
+					<div class="card-body">
+					  <h5 class="card-title">Card title</h5>
+					  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					  <a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				  </div>
+				</div>
+			  </div>
         </article>
 
-        <article>
-
-        </article>
-
-        <article>
-
-        </article>
     </section>
 
-    <footer>Footer</footer>
+    <footer>
+		Footer
+	</footer>
 
     <script src="https://kit.fontawesome.com/173aea000a.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
