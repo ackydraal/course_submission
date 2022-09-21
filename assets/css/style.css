@@ -14,10 +14,11 @@
 .header-dan a:hover {
   color: #00ADB5;
   transform: scale(1.1);
+  transition: 0.2s;
 }
 
-.articles-dan {
-  background-color: #222831;
+.latest-article-section-dan {
+  background-color: #393E46;
 }
 
 .latest-article-dan {
@@ -28,9 +29,28 @@
 
 .category-dan a {
   color: #eeeeee;
+  border-right: solid 2px;
+  border-top: solid 2px;
+  border-color: #00ADB5;
+  flex-grow: 1;
 }
 .category-dan a:hover {
   color: #00ADB5;
+  transition: 0.2s;
+}
+
+.articles-dan aside {
+  background-color: #00ADB5;
+}
+.articles-dan aside i,
+.articles-dan aside h3,
+.articles-dan aside h4 {
+  color: #eeeeee;
+}
+.articles-dan aside i:hover {
+  color: #222831;
+  transform: scale(1.5);
+  transition: 0.2s;
 }
 
 footer {
@@ -45,5 +65,10 @@ footer {
   .menu-dan a:hover {
     color: #00ADB5;
     transform: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .category-dan a {
+    border-style: none;
   }
 }/*# sourceMappingURL=style.css.map */

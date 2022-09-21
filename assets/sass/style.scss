@@ -19,11 +19,13 @@
     a:hover {
         color: #00ADB5;
         transform: scale(1.1);
+        transition: .2s;
     }
 }
 
-.articles-dan {
-    background-color: #222831;
+.latest-article-section-dan {
+    background-color: #393E46;
+    // background-color: #222831;
 }
 
 .latest-article-dan {
@@ -37,12 +39,38 @@
 
     a {
         color: #eeeeee;
+        border-right: solid 2px;
+        border-top: solid 2px;
+        border-color: #00ADB5;
+        flex-grow: 1; 
     }
 
     a:hover {
         color: #00ADB5;
+        transition: .2s;
     }
 }
+
+.articles-dan {
+
+    aside {
+        background-color: #00ADB5;
+
+        i,
+        h3,
+        h4 {
+            color: #eeeeee;
+        }
+
+        i:hover {
+            color: #222831;
+            transform: scale(1.5);
+            transition: .2s;
+        }
+    }
+}
+
+
 
 footer {
     height: 20vh;
@@ -60,6 +88,15 @@ footer {
         a:hover {
             color: #00ADB5;
             transform: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .category-dan {
+    
+        a {
+            border-style: none; 
         }
     }
 }
