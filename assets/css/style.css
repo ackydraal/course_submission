@@ -32,14 +32,16 @@
   background: url(../images/contact-img.jpg) no-repeat;
   width: 100%;
   height: auto;
+  background-size: cover;
+  background-position: top;
 }
 
 .h1-jim {
-  font-size: 46px;
-  background-color: #00ADB5;
-  border-radius: 10px;
+  font-size: 40px;
+  background-color: rgba(0, 172, 181, 0.662745098);
+  border-radius: 2px;
   color: white;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px black;
   padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
@@ -57,6 +59,28 @@
   font-weight: 700;
 }
 
+.map-jim {
+  width: 480px;
+  height: 480px;
+}
+
+.google-map-jim {
+  overflow: hidden;
+}
+
+.btn-jim {
+  background-color: #00ADB5;
+  border: none;
+}
+.btn-jim:hover {
+  background-color: #00939b !important;
+}
+
+@media screen and (max-width: 768px) {
+  .map-jim {
+    width: 600px;
+  }
+}
 @media screen and (max-width: 500px) {
   .h1-jim {
     font-size: 30px;

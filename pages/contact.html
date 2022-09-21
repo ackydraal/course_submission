@@ -82,17 +82,17 @@
 
     <main>
         <section class="contactform-section-jim">
-            <div class="container mt-4">
+            <div class="container mt-5">
                 <div class="row justify-content-center">
                     <div class="col-md-12">
-                        <div class="row mb-5">
+                        <div class="row mb-5 justify-content-center">
                             <div class="col-md-4">
                                 <div class="text-center">
                                     <div class="icon-jim d-flex align-items-center justify-content-center">
                                         <span class="fa fa-map-marker"></span>
                                     </div>
                                     <div>
-                                        <p><span class="bold-text-jim">Address:</span> 666 East 21th Street, Carstation NY 10016</p>
+                                        <p><span class="bold-text-jim">Address:</span> 666 Street, Chicago Illinois 10016</p>
                                     </div>
                                 </div>
                             </div>
@@ -116,6 +116,56 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row bg-light mt-4 px-0">
+                                <div class="col-md-7 p-5">
+                                    <h2 class="mb-4">Contact Us</h2>
+                                    <form action="mailto:info@crazycars.com" method="POST" class="contact-form-jim">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div>
+                                                    <label class="label mt-2" for="name">Full Name</label>
+                                                    <input type="text" class="form-control" name="name" id="name"
+                                                        placeholder="Name...">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div>
+                                                    <label class="label mt-2" for="email">Email Address</label>
+                                                    <input type="email" class="form-control" name="email" id="email"
+                                                        placeholder="Email...">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div>
+                                                    <label class="label mt-2" for="subject">Subject</label>
+                                                    <input type="text" class="form-control" name="subject" id="subject"
+                                                        placeholder="Subject...">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div>
+                                                    <label class="label mt-2" for="#">Message</label>
+                                                    <textarea name="message" class="form-control" id="message" cols="30"
+                                                        rows="4" placeholder="Message..."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div>
+                                                    <input type="submit" value="Send message" class="btn btn-jim btn-primary mt-2"
+                                                        aria-label="Send message">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-md-5 d-flex px-0">
+                                    <div class="google-map-jim">
+                                        <iframe
+                                            src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                            class="map-jim" aria-label="Our location on Google maps"></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -130,5 +180,4 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
