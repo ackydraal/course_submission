@@ -13,6 +13,10 @@
   height: auto;
 }
 
+.social-jim {
+  list-style: none;
+}
+
 .contact-img-jim {
   background: url(../images/contact-img.jpg) no-repeat;
   background-color: black;
@@ -29,7 +33,6 @@
 }
 
 .img-jim {
-  background: url(../images/contact-img.jpg) no-repeat;
   width: 100%;
   height: auto;
   background-size: cover;
@@ -39,9 +42,9 @@
 .h1-jim {
   font-size: 40px;
   background-color: rgba(0, 172, 181, 0.662745098);
-  border-radius: 2px;
   color: white;
   text-shadow: 1px 1px black;
+  box-shadow: -15px -15px 0 0 rgba(0, 0, 0, 0.503);
   padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
@@ -76,9 +79,40 @@
   background-color: #00939b !important;
 }
 
+.newsletter-jim {
+  box-shadow: -20px -20px 0 0 rgba(0, 0, 0, 0.159);
+  top: -25px;
+  margin-top: 120px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.newsletter-jim h3 {
+  padding: 0 10px 0px 10px;
+}
+
 @media screen and (max-width: 768px) {
   .map-jim {
     width: 600px;
+  }
+  .newsletter-wrap-jim {
+    flex-wrap: wrap;
+  }
+  .newsletter-jim h3 {
+    font-size: 18px;
+  }
+  .newsletter-jim h4 {
+    font-size: 12px;
+  }
+  .newsletter-jim a {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .newsletter-jim {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 @media screen and (max-width: 500px) {
