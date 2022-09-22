@@ -1,1 +1,42 @@
+*{
+box-sizing: border-box;
+}
 
+.container-niko{
+max-width: 2000px;
+margin:auto;
+overflow: auto;   
+float:right;
+padding: 90px;
+
+}
+.gallery-niko{
+    width:400px;
+    margin: 5px;
+    
+}
+.button-niko {
+text-align: center;
+background-color:rgb(0, 173, 181);
+color: white;
+}
+.header-niko {
+background-color:rgb(34, 40, 49);
+
+
+}
+
+.menu-niko {
+color: azure;
+}
+.i-niko {
+position: absolute;
+top:22px;
+right: 50px;
+}
+.gallery-niko {
+    float: left;
+    display: inline;
+    margin: 20px 0 20px 20px;
+    
+}
