@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-// .body-dan {
-//     padding: 0;
-//     margin: 0;
-// }
-
 .header-dan {
     background-color: #222831;
     min-height: 10vh;
@@ -25,18 +20,26 @@
 
 .latest-article-section-dan {
     background-color: #393E46;
-    // background-color: #222831;
+
+    h1,
+    p {
+        background-color: #00ADB5;
+    }
+
 }
 
 .latest-article-dan {
     text-transform: capitalize;
     color: #eeeeee;
     min-height: 25vh;
+    
+    .card {
+        border: none;
+    }
 }
 
 .category-dan {
     
-
     a {
         color: #eeeeee;
         border-right: solid 2px;
@@ -52,19 +55,26 @@
 }
 
 .articles-dan {
+    text-transform: capitalize;
 
+    .card {
+        border: none;
+    }
+    
     aside {
         background-color: #00ADB5;
 
         i,
         h3,
-        h4 {
+        h4,
+        a {
             color: #eeeeee;
         }
 
-        i:hover {
+        i:hover,
+        a:hover {
             color: #222831;
-            transform: scale(1.5);
+            transform: scale(1.2);
             transition: .2s;
         }
     }

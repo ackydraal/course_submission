@@ -20,11 +20,18 @@
 .latest-article-section-dan {
   background-color: #393E46;
 }
+.latest-article-section-dan h1,
+.latest-article-section-dan p {
+  background-color: #00ADB5;
+}
 
 .latest-article-dan {
   text-transform: capitalize;
   color: #eeeeee;
   min-height: 25vh;
+}
+.latest-article-dan .card {
+  border: none;
 }
 
 .category-dan a {
@@ -39,17 +46,25 @@
   transition: 0.2s;
 }
 
+.articles-dan {
+  text-transform: capitalize;
+}
+.articles-dan .card {
+  border: none;
+}
 .articles-dan aside {
   background-color: #00ADB5;
 }
 .articles-dan aside i,
 .articles-dan aside h3,
-.articles-dan aside h4 {
+.articles-dan aside h4,
+.articles-dan aside a {
   color: #eeeeee;
 }
-.articles-dan aside i:hover {
+.articles-dan aside i:hover,
+.articles-dan aside a:hover {
   color: #222831;
-  transform: scale(1.5);
+  transform: scale(1.2);
   transition: 0.2s;
 }
 
