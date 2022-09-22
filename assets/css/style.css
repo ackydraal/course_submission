@@ -28,3 +28,7 @@
     background-color: #222831;
     color: #EEEEEE;
 }
+.fot-tom {
+    position: fixed;
+    bottom: 0;
+}
