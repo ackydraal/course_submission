@@ -16,3 +16,11 @@
     background-color: #222831;
     color: #EEEEEE;
 }
+.link-tom {
+    text-decoration: none;
+    color: #EEEEEE;
+    text-shadow: 2px 2px 4px #222831;
+}
+.link-tom:hover {
+    color: #00ADB5
+}
