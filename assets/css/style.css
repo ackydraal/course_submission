@@ -1,8 +1,8 @@
-* {
-    margin: 0;
-}
 .img-tom {
-    max-height: 90vh;
+    max-height: 70vh;
+    min-height: 70vh;
+    max-width: auto;
+    overflow: hidden;
 }
 .body-tom {
     background-color: #00ADB5;
@@ -22,5 +22,9 @@
     text-shadow: 2px 2px 4px #222831;
 }
 .link-tom:hover {
-    color: #00ADB5
+    color: #00ADB5;
+}
+.foot-tom {
+    background-color: #222831;
+    color: #EEEEEE;
 }
