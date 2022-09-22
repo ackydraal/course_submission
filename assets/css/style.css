@@ -1,5 +1,8 @@
+* {
+    margin: 0;
+}
 .img-tom {
-    max-height: 80vh;
+    max-height: 90vh;
 }
 .body-tom {
     background-color: #00ADB5;
@@ -8,7 +11,6 @@
 .nav-tom {
     background-color: #222831;
     color: #EEEEEE;
-    align-items: center;
 }
 .navv-tom {
     background-color: #222831;
