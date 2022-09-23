@@ -32,6 +32,13 @@
     text-align: center;
 }
 
+.contact-img-jim h2 {
+    color: white;
+    background-color: #00acb5a9;
+    text-shadow: 1px 1px black;
+    padding: 0 0.5rem 0.3rem 0.5rem;
+}
+
 .img-jim {
     width: 100%;
     height: auto;
@@ -45,12 +52,12 @@
     color: white;
     text-shadow: 1px 1px black;
     box-shadow: -15px -15px 0 0 rgba(0, 0, 0, 0.503);
-    padding: 0 0.5rem 0.5rem 0.5rem;
+    padding: 0 0.5rem 0.3rem 0.5rem;
 }
 
 .icon-jim {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     color: white;
     background: #00ADB5;
@@ -72,6 +79,10 @@
 
 .google-map-jim {
     height: 480px;
+}
+
+.form-shadow-jim {
+    box-shadow: 0px 0px 10px #00ADB5;
 }
 
 .carousel-jim h3, .carousel-jim p {
