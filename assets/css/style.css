@@ -28,6 +28,9 @@
 .foot-tom {
     background-color: #222831;
     color: #EEEEEE;
+    padding: 3px solid #00ADB5 !important;
+    border: 3px solid #00ADB5 !important;
+    margin: 3px solid #00ADB5 !important;
 }
 .fot-tom {
     bottom: 0;
@@ -65,4 +68,7 @@
     max-height: 140px;
     max-width: 140px;
     min-height: 140px;
+}
+.main-tom {
+    text-shadow: 2px 2px 4px #222831;
 }
