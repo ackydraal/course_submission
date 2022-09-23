@@ -32,10 +32,15 @@
 .fot-tom {
     bottom: 0;
 }
-.carousel-indicators button {
+.carousel-indicators-tom button {
     height: 20px !important;
     width: 20px !important;
     margin: 0 10px !important;
     border-radius: 100%;
     background-color: #00ADB5 !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #222831;
+    opacity: .2;
 }
