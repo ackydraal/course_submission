@@ -3,6 +3,7 @@
     min-height: 70vh;
     max-width: auto;
     overflow: hidden;
+    object-fit: cover;
 }
 .body-tom {
     background-color: #00ADB5;
