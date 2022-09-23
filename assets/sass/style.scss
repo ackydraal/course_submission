@@ -74,6 +74,11 @@
     height: 480px;
 }
 
+.carousel-jim h3, .carousel-jim p {
+    background-color: #00acb5a9;
+    text-shadow: 1px 1px black;
+}
+
 .newsletter-jim {
     box-shadow: -20px -20px 0 0 rgba(0, 0, 0, 0.159);
     top: -25px;
@@ -125,11 +130,27 @@
         width: 100%;
         height: 25vh;
     }
+
+    .carousel-jim h3 {
+        line-height: 1.1;
+    }
+
+    .carousel-jim p {
+        line-height: 1.1;
+    }
 }
 
 @media screen and (max-width: 340px) {
     .logo-jim {
         width: 50vw;
         height: auto;
+    }
+
+    .carousel-jim h3 {
+        font-size: 12px;
+    }
+
+    .carousel-jim p {
+        font-size: 10px;
     }
 }
