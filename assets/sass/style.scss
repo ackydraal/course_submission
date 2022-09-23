@@ -62,21 +62,16 @@
     font-weight: 700;
 }
 
-.map-jim {
-    width: 480px;
-    height: 480px;
-}
-
-.google-map-jim {
-    overflow: hidden;
-}
-
 .btn-jim {
     background-color: #00ADB5;
     border: none;
     &:hover {
         background-color: #00939b !important;
     }
+}
+
+.google-map-jim {
+    height: 480px;
 }
 
 .newsletter-jim {
@@ -92,12 +87,7 @@
     padding: 0 10px 0px 10px;
 }
 
-
 @media screen and (max-width: 768px) {
-    .map-jim {
-        width: 600px;
-    }
-
     .newsletter-wrap-jim {
         flex-wrap: wrap;
     }
@@ -112,6 +102,10 @@
 
     .newsletter-jim a {
         font-size: 10px;
+    }
+
+    .google-map-jim {
+        height: 300px;
     }
 }
 
