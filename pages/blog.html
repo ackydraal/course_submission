@@ -62,7 +62,6 @@
 				<img src="../assets/images/car-one-dan.jpg" class="card-img d-none d-sm-block" alt="A sports car driving through the city">
 				<div class="card-img-overlay d-flex flex-column p-md-5">
 					<h1 class="card-title align-self-start rounded mb-auto p-2">top 10 sports car in 2022 - big guide</h1>
-					<!-- <time datetime="2022-09-23"class="card-text rounded p-2 w-25 text-center">23 September - 2022</time> -->
 					<p class="card-text d-none d-md-block align-self-center lead rounded my-auto p-2">
 						Which one is your favorite? See what the experts are saying!
 					</p>
@@ -143,9 +142,28 @@
 					</div>
 				</div>
 			</article>
+			<article class="my-5">
+				<div class="card mb-3 p-0">
+					<div class="row g-0">
+						<div class="col-md-4 my-auto px-2 test">
+							<img src="../assets/images/sell-car-dan.jpg" class="img-fluid rounded-start" alt="A person selling a car">
+						</div>
+						<div class="col-md-8 px-2">
+							<div class="card-body text-center text-md-start">
+								<h2 class="card-title">the most important thing to consider when selling your car</h2>
+								<p class="card-text">it is not easy to sell a car and there is one thing you must know about... so that you do not get scammed.</p>
+								<p>
+									<time datetime="2022-09-23" class="card-text text-muted"><small class="text-muted">September 23 - 2022</small></time>
+								</p>
+								<a href="#" class="btn btn-primary px-4">Find out</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
 		</div>
-		<aside class="col-lg-3 rounded py-4">
-			<div class="text-center py-2">
+		<aside class="col-lg-3 rounded py-4 d-flex flex-column justify-content-evenly">
+			<div class="text-center p-3 rounded ">
 				<h3>Follow Us:</h3>
 				<div class="social-links-dan d-flex justify-content-lg-evenly justify-content-center pt-2">
 					<a href="https://facebook.com" class="px-4 px-lg-0" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook fa-2x"></i></a>
@@ -154,7 +172,7 @@
 					<a href="https://twitter.com" class="px-4 px-lg-0" class="" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter fa-2x"></i></a>
 				</div>
 			</div>
-			<div class="p-4 text-center">
+			<div class="text-center p-3">
 				<h4 class="font-italic">Archives</h4>
 				<ol class="list-unstyled">
 					<li><a href="#">January</a></li>
@@ -170,6 +188,21 @@
 					<li><a href="#">November</a></li>
 					<li><a href="#">December</a></li>
 				</ol>
+			</div>
+			<div class="about-us-dan text-center p-3 rounded bg-dark-dan">
+				<h4>About Crazy Cars</h4>
+				<p>The business is born from a long heritage of dealing in sports cars, stemming from the owners personal ownership 
+					of numerous contemporary Lamborghini models over 40 years ago.
+				</p>
+				<p>
+					This passion for collecting sports cars inevitably led to 
+					more active buying and selling of the cars, which in turn led to the establishment of sports cars as a separate 
+					trading entity. 
+				</p>
+				<p>
+					The success of the business over many years trading, has led to its position as a globally recognised 
+					centre of excellence for sports car sales, with thousands of satisfied customers all over the world.
+				</p>
 			</div>
 		</aside>
 		<nav class="p-3" aria-label="Go to next or previous blog post page">
@@ -190,9 +223,91 @@
     </section>
 
 	<!-- Formulär tävling -->
-	<section class="container">
-		<h5 class="text-capitalize">join our quiz and get the chance to win a sports car</h5>
+	<section class="container w-75 rounded bg-dark text-light p-5 quiz-form-dan">
+		<form class="text-capitalize" action="mailto:firstname.lastname@mymail.eu">
+            <fieldset class="d-flex flex-column">
+                <legend class="text-center" >join our quiz and get the chance to win a sports car</legend>
+
+				<div class="d-flex justify-content-center">
+					<div class="col-4 p-2">
+						<label for="fname">First Name:</label>
+						<input class="w-100 rounded" type="text" id="fname" name="fname" placeholder="Your First Name...">
+					</div>
+					<div class="col-4 p-2">
+						<label  for="lname">Last Name:</label>
+						<input class="w-100 rounded" type="text" id="lname" name="lname" placeholder="Your Last Name...">
+					</div>
+				</div>
+				<div class="col-8 mx-auto p-2">
+					<label  for="email">*Email Address:</label>
+					<input class="w-100 rounded" type="email" id="email" name="email" placeholder="Your Email Address..." required>
+					<i>(* required)</i>
+				</div>
+
+				<div class="col-8 mx-auto p-2">
+					<h5>Questions:</h5>
+					<label for="question-one">1) Porsche got the name of the Cayman from:</label>
+					<select class="w-100" name="question-one" id="question-one">
+						<optgroup label="Animals">
+							<option value="elephant">Elephant</option>
+							<option value="alligator">Alligator</option>
+							<option value="donkey">Donkey</option>
+						</optgroup>
+						<optgroup label="Countries">
+							<option value="cayman-islands">Cayman Islands</option>
+							<option value="germany">Germany</option>
+							<option value="cape-verde">Cape Verde</option>
+						</optgroup>
+						<optgroup label="Rivers">
+							<option value="nile">Nile</option>
+							<option value="amazon">Amazon</option>
+							<option value="mississippi-missouri-red-rock">Mississippi-Missouri-Red Rock</option>
+						</optgroup>
+					</select>
+				</div>
+
+                <div class="col-8 mx-auto d-flex justify-content-between p-2">
+					<div class="col-4">
+						<h5>2) What Does The Term "BHP" Stand For?</h5>
+						<div class="">
+							<div class="d-lex flex-column">
+								<input type="radio" id="belt-helt-power" name="question-two" value="belt-helt-power">
+								<label for="belt-helt-power">Belt Helt Power</label>
+							</div>
+							<input type="radio" id="brake-horse-power" name="question-two" value="brake-horse-power">
+							<label for="brake-horse-power">Brake Horse Power</label> 
+							<input type="radio" id="burning-hind-part" name="question-two" value="burning-hind-part">
+							<label for="burning-hind-part">Burning Hind Part</label>
+							<input type="radio" id="brake-hind-pad" name="question-two" value="brake-hind-pad">
+							<label for="brake-hind-pad">Brake Hind Pad</label>
+							<input type="radio" id="bere-hat-pad" name="question-two" value="bere-hat-pad">
+							<label for="bere-hat-pad">Bere Hat Pad</label>
+						</div>
+					</div>
+					<div class="col-4 text-center">
+						<h5>3) How old are you?</h5>
+						<input type="radio" id="a" name="a" value="7">
+						<label for="a">0 - 7</label>
+						<input type="radio" id="age2" name="age" value="14">
+						<label for="age2">8 - 14</label> 
+						<input type="radio" id="age3" name="age" value="old">
+						<label for="age3">Old as a dinosaur</label>
+					</div>
+                </div>
+
+				
+				
+
+            </fieldset>
+        </form>
 	</section>
+
+	<div>
+		<input type="checkbox" id="age" name="age" value="adult">
+		<label for="age">I confirm that I am over 18 years old</label>
+	</div>
+	<input type="submit" value="Submit the form">
+	<input type="reset" value="Reset the form">
 
 	<!-- FAQ -->
 	<section class="container">

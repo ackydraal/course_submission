@@ -62,25 +62,36 @@
     }
     
     aside {
-        background-color: #00ADB5;
+        // background-color: #00ADB5;
 
-        i,
-        h3,
-        h4,
         a {
-            color: #eeeeee;
+            color: #222831;
+        }
+
+        .bg-dark-dan {
+            background-color: #393E46;
+            
+            p,
+            h4 {
+               color: #eeeeee; 
+            }
         }
 
         i:hover,
         a:hover {
-            color: #222831;
+            color: #00ADB5;
             transform: scale(1.2);
             transition: .2s;
         }
     }
 }
 
+.quiz-form-dan {
 
+    i {
+        color: #eeeeee;
+    }
+}
 
 footer {
     height: 20vh;

@@ -52,20 +52,25 @@
 .articles-dan .card {
   border: none;
 }
-.articles-dan aside {
-  background-color: #00ADB5;
-}
-.articles-dan aside i,
-.articles-dan aside h3,
-.articles-dan aside h4,
 .articles-dan aside a {
+  color: #222831;
+}
+.articles-dan aside .bg-dark-dan {
+  background-color: #393E46;
+}
+.articles-dan aside .bg-dark-dan p,
+.articles-dan aside .bg-dark-dan h4 {
   color: #eeeeee;
 }
 .articles-dan aside i:hover,
 .articles-dan aside a:hover {
-  color: #222831;
+  color: #00ADB5;
   transform: scale(1.2);
   transition: 0.2s;
+}
+
+.quiz-form-dan i {
+  color: #eeeeee;
 }
 
 footer {
