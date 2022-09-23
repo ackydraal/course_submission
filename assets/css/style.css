@@ -72,3 +72,13 @@
 .main-tom {
     text-shadow: 2px 2px 4px #222831;
 }
+.info-tom {
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    color: #EEEEEE;
+}
+.text-tom {
+    padding: 40px;
+    color: #EEEEEE;
+}
