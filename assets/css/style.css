@@ -18,6 +18,11 @@
   list-style: none;
 }
 
+.carousel-img-jim {
+  width: 33%;
+  height: auto;
+}
+
 .contact-img-jim {
   background: url(../images/contact-img.jpg) no-repeat;
   background-color: black;
@@ -108,6 +113,10 @@
   padding: 0 10px 0px 10px;
 }
 
+.carousel-jim {
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 768px) {
   .newsletter-wrap-jim {
     flex-wrap: wrap;
@@ -124,11 +133,18 @@
   .google-map-jim {
     height: 300px;
   }
+  .carousel-jim h3 {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 576px) {
   .newsletter-jim {
     margin-left: 50px;
     margin-right: 50px;
+  }
+  .carousel-img-jim {
+    width: 50%;
+    height: auto;
   }
 }
 @media screen and (max-width: 500px) {
