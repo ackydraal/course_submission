@@ -68,6 +68,7 @@
   color: white;
   background: #00ADB5;
   margin: 0 auto;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 .icon-jim:hover {
@@ -85,6 +86,7 @@
 
 .btn-jim {
   background-color: #00ADB5;
+  font-size: 24px;
   border: none;
 }
 .btn-jim:hover {
@@ -92,7 +94,8 @@
   transition: 1s;
 }
 
-.google-map-jim {
+.google-maps-jim {
+  width: 100%;
   height: 540px;
 }
 
@@ -108,7 +111,7 @@
 .newsletter-jim {
   box-shadow: -20px -20px 0 0 rgba(0, 0, 0, 0.159);
   top: -25px;
-  margin-top: 120px;
+  margin-top: 100px;
   position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -122,6 +125,10 @@
   white-space: nowrap;
 }
 
+.card-jim {
+  box-shadow: 0px 0px 10px -6px inset black;
+}
+
 .link-jim {
   color: white;
 }
@@ -130,12 +137,13 @@
 }
 
 .svg-jim {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
   -webkit-animation: fadeIn 1s ease-in infinite alternate;
           animation: fadeIn 1s ease-in infinite alternate;
-  width: 100px;
-  height: 60px;
+  width: 160px;
+  height: 100px;
+  margin-top: -40px;
   text-shadow: 1px 1px 3px black;
 }
 
@@ -169,7 +177,7 @@
   .newsletter-jim a {
     font-size: 10px;
   }
-  .google-map-jim {
+  .google-maps-jim {
     height: 300px;
   }
   .carousel-jim h3 {
@@ -191,7 +199,7 @@
   }
   .contact-img-jim {
     width: 100%;
-    height: 25vh;
+    height: 30vh;
   }
   .carousel-jim h3 {
     line-height: 1.1;
@@ -212,6 +220,6 @@
     font-size: 10px;
   }
   .svg-jim {
-    font-size: 20px;
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
