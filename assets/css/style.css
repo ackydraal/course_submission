@@ -33,9 +33,6 @@
     margin: 3px solid #00ADB5 !important;
     text-shadow: 1px 1px #393E46 !important;
 }
-.fot-tom {
-    bottom: 0;
-}
 .carousel-indicators-tom button {
     height: 20px !important;
     width: 20px !important;
@@ -142,4 +139,17 @@
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.footer-tom {
+    background-color: #222831;
+    text-shadow: 1px 1px #393E46;
+    color: #EEEEEE;
+}
+.link-tom2 a {
+    text-decoration: none;
+    color: #EEEEEE;
+    text-shadow: 2px 2px 4px #222831;
+}
+.link-tom2:hover a {
+    color: #00ADB5;
 }
