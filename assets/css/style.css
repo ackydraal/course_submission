@@ -178,20 +178,26 @@
 }
 .card-tom {
     text-shadow: 2px 2px 4px #222831;
-    text-align: center;
-    background-color: #222831;
+    background-color: #00ADB5;
     color: #EEEEEE;
-    padding: 13px solid #00ADB5 !important;
-    border: 13px solid #00ADB5 !important;
-    margin: 13px solid #00ADB5 !important;
+    padding: 10px solid #00ADB5 !important;
+    border: 10px solid #00ADB5 !important;
     text-shadow: 1px 1px #393E46 !important;
+    text-align: center;
+}
+.card-tom img {
+    border-radius: 20%;
+}
+.card-tom:hover img {
+        filter: blur(5px);
 }
 .text-tom2 {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
     background-color: #222831;
-    color: #EEEEEE;
-    padding-left: 20px;
-    padding-right: 20px;
+    color: #EEEEEE
+}
+.test-img img {
+    object-fit: cover;
+    margin: auto;
 }
