@@ -70,6 +70,10 @@
   margin: 0 auto;
   margin-bottom: 20px;
 }
+.icon-jim:hover {
+  transition: 1s;
+  transform: scale(1.5);
+}
 
 .social-icons-jim {
   color: #00ADB5;

@@ -69,6 +69,10 @@
     background: #00ADB5;
     margin: 0 auto;
     margin-bottom: 20px;
+    &:hover {
+        transition: 1s;
+        transform: scale(1.5);
+    }
 }
 
 .social-icons-jim {
