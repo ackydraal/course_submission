@@ -84,12 +84,32 @@
             transition: .2s;
         }
     }
+    nav {
+        a:hover {
+            color: red;
+        }
+    }
 }
 
 .quiz-form-dan {
+    // background-color: #00ADB5;
+    color: #222831;
 
-    i {
+    .user-info-dan {
+        background-color: #00ADB5;
+    }
+
+    .question-area-dan {
+        background-color: #393E46;
         color: #eeeeee;
+
+        svg {
+            height: auto;
+            width: 50%;
+            fill:#00ADB5;
+            // stroke:#eeeeee;
+            stroke-width: 2;
+        }
     }
 }
 

@@ -68,9 +68,25 @@
   transform: scale(1.2);
   transition: 0.2s;
 }
+.articles-dan nav a:hover {
+  color: red;
+}
 
-.quiz-form-dan i {
+.quiz-form-dan {
+  color: #222831;
+}
+.quiz-form-dan .user-info-dan {
+  background-color: #00ADB5;
+}
+.quiz-form-dan .question-area-dan {
+  background-color: #393E46;
   color: #eeeeee;
+}
+.quiz-form-dan .question-area-dan svg {
+  height: auto;
+  width: 50%;
+  fill: #00ADB5;
+  stroke-width: 2;
 }
 
 footer {
