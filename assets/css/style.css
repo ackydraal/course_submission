@@ -83,11 +83,60 @@
   color: #eeeeee;
 }
 .quiz-form-dan .question-area-dan svg {
+  position: relative;
   max-height: 60px;
   fill: green;
   stroke: #eeeeee;
   stroke-width: 2;
   padding: 0 1rem;
+  animation-name: example;
+  animation-duration: 8s;
+}
+@keyframes example {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  10% {
+    left: 25px;
+    top: 0px;
+  }
+  20% {
+    left: 0px;
+    top: 0px;
+  }
+  30% {
+    left: 25px;
+    top: 0px;
+  }
+  40% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: 25px;
+    top: 0px;
+  }
+  60% {
+    left: 0px;
+    top: 0px;
+  }
+  70% {
+    left: 25px;
+    top: 0px;
+  }
+  80% {
+    left: 0px;
+    top: 0px;
+  }
+  90% {
+    left: 25px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }
 
 footer {
