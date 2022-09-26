@@ -85,14 +85,11 @@
 }
 .btn-jim:hover {
   background-color: #00939b !important;
+  transition: 1s;
 }
 
 .google-map-jim {
   height: 540px;
-}
-
-.svg-jim {
-  font-size: 26px;
 }
 
 .form-shadow-jim {
@@ -121,6 +118,40 @@
   white-space: nowrap;
 }
 
+.link-jim {
+  color: white;
+}
+.link-jim:hover {
+  color: rgb(231, 231, 231);
+}
+
+.svg-jim {
+  font-size: 26px;
+  font-weight: 700;
+  -webkit-animation: fadeIn 1s ease-in infinite alternate;
+          animation: fadeIn 1s ease-in infinite alternate;
+  width: 100px;
+  height: 60px;
+  text-shadow: 1px 1px 3px black;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1000;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1000;
+  }
+}
 @media screen and (max-width: 768px) {
   .newsletter-wrap-jim {
     flex-wrap: wrap;
@@ -177,6 +208,6 @@
     font-size: 10px;
   }
   .svg-jim {
-    font-size: 16px;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

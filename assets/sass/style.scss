@@ -84,15 +84,12 @@
     border: none;
     &:hover {
         background-color: #00939b !important;
+        transition: 1s;
     }
 }
 
 .google-map-jim {
     height: 540px;
-}
-
-.svg-jim {
-    font-size: 26px;
 }
 
 .form-shadow-jim {
@@ -119,6 +116,31 @@
 
 .carousel-jim {
     white-space: nowrap;
+}
+
+.link-jim {
+    color: white;
+    &:hover {
+        color: rgb(231, 231, 231);
+    }
+}
+
+.svg-jim {
+    font-size: 26px;
+    font-weight: 700;
+    animation: fadeIn 1s ease-in infinite alternate;
+    width: 100px;
+    height: 60px;
+    text-shadow: 1px 1px 3px black;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0.2;
+    }
+    to {
+      opacity: 1000;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -192,6 +214,6 @@
     }
 
     .svg-jim {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
