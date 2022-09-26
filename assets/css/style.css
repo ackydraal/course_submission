@@ -82,6 +82,14 @@
     color: #EEEEEE;
     text-shadow: 1px 1px #222831;
 }
+.info-tom2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    color: #EEEEEE;
+    text-shadow: 1px 1px #222831;
+}
 .text-tom {
     padding: 40px;
     color: #EEEEEE;
@@ -97,4 +105,41 @@
     margin-left: 50px;
     margin-right: 50px;
     text-shadow: 1px 1px #222831;
+}
+.fb-tom {
+    max-width: 100px;
+    max-height: 100px;
+}
+.fb-tom:hover {
+    fill: #4267B2;
+    transition: 1.5s;;
+}
+.insta-tom {
+    max-width: 100px;
+    max-height: 100px;
+}
+.insta-tom:hover {
+    fill: #E1306C;
+    transition: 1.5s;
+}
+.youtube-tom {
+    max-width: 100px;
+    max-height: 100px;
+}
+.youtube-tom:hover {
+    fill: #FF0000;
+    transition: 1.5s;
+}
+.twitt-tom {
+    max-width: 100px;
+    max-height: 100px;
+}
+.twitt-tom:hover {
+    fill: #1DA1F2;
+    transition: 1.5s;
+}
+.social-tom {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
