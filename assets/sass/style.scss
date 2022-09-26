@@ -104,11 +104,11 @@
         color: #eeeeee;
 
         svg {
-            height: auto;
-            width: 50%;
-            fill:#00ADB5;
-            // stroke:#eeeeee;
+            max-height: 60px;
+            fill: green;
+            stroke: #eeeeee;
             stroke-width: 2;
+            padding: 0 1rem;
         }
     }
 }
