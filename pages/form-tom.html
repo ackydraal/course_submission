@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Third assignment">
+    <meta name="keywords" content="crazy car, high end car, fast car, fast vehicle">
+    <meta name="author" content="Tommy Björkman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="/assets/images/sports-car.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    <title>Welcome to Crazy Cars</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="body-tom">
+    <div  class="form-tom">
+        <h1>Crazy cars visitor survey</h1>
+        <hr class="line-tom2">
+        <h2>Where did you learn about Crazy cars?</h2>
+        <form action="/action_page.php">
+            <input type="radio" id="google" name="where-tom" value="Google">
+            <label for="google">Google</label><br>
+            <input type="radio" id="facebook" name="where-tom" value="Facebook">
+            <label for="facebook">Facebook</label><br>
+            <input type="radio" id="instagram" name="where-tom" value="Instagram">
+            <label for="instagram">Instagram</label><br>
+            <input type="radio" id="friend" name="where-tom" value="Friend">
+            <label for="friend">From a friend</label><br>
+            <input type="radio" id="sponsor" name="where-tom" value="Sponsor">
+            <label for="sponsor">Our sponsorships</label><br>
+            <input type="radio" id="twitter" name="where-tom" value="Twitter">
+            <label for="twitter">Twitter</label>
+            <hr class="line-tom2">
+            <h2>What is your age?</h2>
+            <label for="age">My age</label>
+            <select name="age-tom" id="age">
+            <option value="0-18">0-18</option>
+            <option value="19-25">19-25</option>
+            <option value="26-31">26-31</option>
+            <option value="32-40">32-40</option>
+            <option value="41-50">41-50</option>
+            <option value="51-60">51-60</option>
+            <option value="61-65">61-65</option>
+            <option value="66">66+</option>
+            </select>
+            <hr class="line-tom2">
+            <h2>Where do you live?</h2>
+            <label for="live">Country/Continent</label>
+            <select name="live-tom" id="live">
+            <option value="sweden">Sweden</option>
+            <option value="norway">Norway</option>
+            <option value="england">England</option>
+            <option value="germany">Germany</option>
+            <option value="finland">Finland</option>
+            <option value="denmark">Denmark</option>
+            <option value="usa">USA</option>
+            <option value="othereu">Other EU country</option>
+            <option value="other">Other country (non EU)</option>
+            </select>
+            <hr class="line-tom2">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

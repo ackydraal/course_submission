@@ -107,7 +107,8 @@
 }
 .fb-tom:hover {
     fill: #4267B2;
-    transition: 1.5s;
+    background-color: #222831;
+    transition: 2s;
 }
 .insta-tom {
     max-width: 100px;
@@ -115,7 +116,8 @@
 }
 .insta-tom:hover {
     fill: #E1306C;
-    transition: 1.5s;
+    background-color: #222831;
+    transition: 2s;
 }
 .youtube-tom {
     max-width: 100px;
@@ -123,7 +125,8 @@
 }
 .youtube-tom:hover {
     fill: #FF0000;
-    transition: 1.5s;
+    background-color: #222831;
+    transition: 2s;
 }
 .twitt-tom {
     max-width: 100px;
@@ -131,7 +134,8 @@
 }
 .twitt-tom:hover {
     fill: #1DA1F2;
-    transition: 1.5s;
+    background-color: #222831;
+    transition: 2s;
 }
 .footer-tom {
     background-color: #222831;
@@ -170,6 +174,7 @@
 }
 .card-tom img {
     border-radius: 20%;
+    box-shadow: 5px 10px #393E46;
 }
 .card-tom:hover img {
         filter: blur(5px);
@@ -180,7 +185,6 @@
     background-color: #222831;
     color: #EEEEEE
 }
-.test-img img {
-    object-fit: cover;
-    margin: auto;
+.form-tom {
+    text-align: center;
 }
