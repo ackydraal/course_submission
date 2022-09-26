@@ -25,14 +25,6 @@
 .link-tom:hover {
     color: #00ADB5;
 }
-.foot-tom {
-    background-color: #222831;
-    color: #EEEEEE;
-    padding: 3px solid #00ADB5 !important;
-    border: 3px solid #00ADB5 !important;
-    margin: 3px solid #00ADB5 !important;
-    text-shadow: 1px 1px #393E46 !important;
-}
 .carousel-indicators-tom button {
     height: 20px !important;
     width: 20px !important;
@@ -166,15 +158,6 @@
     width: 100%;
     margin: auto;
     padding: 1rem;
-}
-.foot-tom img {
-    float: right;
-    position: relative;
-    width: 50%;
-}
-.foot-tom p {
-    display: inline;
-    text-shadow: 1px 1px #393E46;
 }
 .card-tom {
     text-shadow: 2px 2px 4px #222831;
