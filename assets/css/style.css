@@ -13,9 +13,12 @@
     background-color: #222831;
     color: #EEEEEE;
 }
+.nav-tom:hover {
+    background-color: #393E46;
+    color: #00ADB5;
+}
 .navv-tom {
     background-color: #222831;
-    color: #EEEEEE;
 }
 .link-tom {
     text-decoration: none;
