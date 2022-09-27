@@ -208,3 +208,45 @@
     bottom: 0;
     position: relative;
 }
+.form2-tom {
+    padding: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #393E46;
+    text-align: center;
+    text-shadow: 2px 2px #222831;
+}
+.h1form2-tom {
+    text-align: center;
+}
+.textarea2-tom {
+    min-height: 200px;
+    width: 200px;
+    resize: both;
+}
+.adress2-tom label {
+    margin: 5px;
+}
+.names2-tom label {
+    margin: 5px;
+}
+.button2-tom {
+    height: 20vh;
+    width: 20vw;
+    background-color: #00ADB5;
+    font-size: larger;
+    font-style: oblique;
+}
+.button2-tom:hover {
+    background-color: rgb(13, 101, 13);
+}
+.reset2-tom {
+    height: 10vh;
+    width: 10vw;
+    background-color: #222831;
+    font-size: large;
+    font-style: oblique;
+}
+.reset2-tom:hover {
+    background-color: rgb(187, 5, 5);
+}
