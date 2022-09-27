@@ -74,28 +74,22 @@
     color: #EEEEEE;
     text-shadow: 1px 1px #222831;
 }
-.info-tom2 {
-    justify-content: center;
-    text-align: center;
-    margin-top: 10px;
-    padding: 5px;
-    color: #EEEEEE;
-    text-shadow: 1px 1px #222831;
-}
 .text-tom {
     padding: 20px;
     color: #EEEEEE;
     margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .info-tom2 {
     justify-content: center;
     text-align: center;
     padding: 5px;
     color: #EEEEEE;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
     text-shadow: 1px 1px #222831;
 }
 .social-tom {
