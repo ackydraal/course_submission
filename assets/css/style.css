@@ -109,6 +109,7 @@
     fill: #4267B2;
     background-color: #222831;
     transition: 2s;
+    transition-timing-function: ease-out;
 }
 .insta-tom {
     max-width: 100px;
@@ -118,6 +119,7 @@
     fill: #E1306C;
     background-color: #222831;
     transition: 2s;
+    transition-timing-function: ease-out;
 }
 .youtube-tom {
     max-width: 100px;
@@ -127,6 +129,7 @@
     fill: #FF0000;
     background-color: #222831;
     transition: 2s;
+    transition-timing-function: ease-out;
 }
 .twitt-tom {
     max-width: 100px;
@@ -136,6 +139,7 @@
     fill: #1DA1F2;
     background-color: #222831;
     transition: 2s;
+    transition-timing-function: ease-out;
 }
 .footer-tom {
     background-color: #222831;
