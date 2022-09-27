@@ -9,6 +9,10 @@ $orange-color: #ff9c05;
     list-style-type: none;
 
     a {
-        color: $third-color;
+        color: $fourth-color; 
     }
+    
+    a:hover {
+        color: $third-color;
+    } 
 }

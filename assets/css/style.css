@@ -94,9 +94,16 @@
 .quiz-form-dan .user-info-dan {
   background-color: #00ADB5;
 }
+.quiz-form-dan .user-info-dan input {
+  padding: 3px;
+}
 .quiz-form-dan .question-area-dan {
   background-color: #393E46;
   color: #eeeeee;
+}
+.quiz-form-dan .question-area-dan select {
+  border-radius: 5px;
+  padding: 3px;
 }
 .quiz-form-dan .question-area-dan svg {
   position: relative;
@@ -154,6 +161,11 @@
   }
 }
 
+.faq-dan .accordion-button {
+  background-color: #00ADB5;
+  color: #222831;
+}
+
 footer {
   min-height: 20vh;
   background-color: #222831;
@@ -163,6 +175,9 @@ footer .social-links-dan {
   list-style-type: none;
 }
 footer .social-links-dan a {
+  color: #eeeeee;
+}
+footer .social-links-dan a:hover {
   color: #00ADB5;
 }
 
