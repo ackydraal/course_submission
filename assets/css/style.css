@@ -165,6 +165,10 @@
   background-color: #00ADB5;
   color: #222831;
 }
+.faq-dan .accordion-button:focus {
+  background-color: #393E46;
+  color: #eeeeee;
+}
 
 footer {
   min-height: 20vh;
