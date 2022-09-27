@@ -85,15 +85,15 @@
 .text-tom {
     padding: 40px;
     color: #EEEEEE;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 .info-tom2 {
     justify-content: center;
     text-align: center;
     padding: 5px;
     color: #EEEEEE;
-    margin-top: 90px;
-    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-bottom: 30px;
     margin-left: 50px;
     margin-right: 50px;
     text-shadow: 1px 1px #222831;
@@ -109,9 +109,8 @@
     max-height: 100px;
 }
 .fb-tom:hover {
-    fill: #4267B2;
-    background-color: #222831;
-    transition: 2s;
+    fill: #EEEEEE;
+    transition: 0.7s;
     transition-timing-function: ease-out;
 }
 .insta-tom {
@@ -119,9 +118,8 @@
     max-height: 100px;
 }
 .insta-tom:hover {
-    fill: #E1306C;
-    background-color: #222831;
-    transition: 2s;
+    fill: #EEEEEE;
+    transition: 0.7s;
     transition-timing-function: ease-out;
 }
 .youtube-tom {
@@ -129,9 +127,8 @@
     max-height: 100px;
 }
 .youtube-tom:hover {
-    fill: #FF0000;
-    background-color: #222831;
-    transition: 2s;
+    fill: #EEEEEE;
+    transition: 0.7s;
     transition-timing-function: ease-out;
 }
 .twitt-tom {
@@ -139,9 +136,8 @@
     max-height: 100px;
 }
 .twitt-tom:hover {
-    fill: #1DA1F2;
-    background-color: #222831;
-    transition: 2s;
+    fill: #EEEEEE;
+    transition: 0.7s;
     transition-timing-function: ease-out;
 }
 .footer-tom {
@@ -174,7 +170,6 @@
     text-shadow: 2px 2px 4px #222831;
     background-color: #00ADB5;
     color: #EEEEEE;
-    padding: 10px solid #00ADB5 !important;
     border: 10px solid #00ADB5 !important;
     text-shadow: 1px 1px #393E46 !important;
     text-align: center;
