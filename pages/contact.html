@@ -15,11 +15,11 @@
 </head>
 
 <body>
-    <header class="header-jim">
-        <nav class="navbar navbar-expand-md bg-light p-2">
+    <header class="header-jim bg-light">
+        <nav class="navbar navbar-expand-md p-2">
             <div class="container">
                 <a class="navbar-brand" href="../index.html"><img src="../assets/images/crazycars-logo.png"
-                        class="logo-jim img-fluid" alt="crazycars logo" aria-label="Link to Start page"></a>
+                        class="img-fluid" id="logo-jim" alt="crazycars logo" aria-label="Link to Start page"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
                         </li>
                     </ul>
                     <form class="d-flex" action="../pages/under-construction.html" method="get">
-                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search" />
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
                         <a class="btn" href="../pages/under-construction.html" aria-label="Search"><i
                                 class="fas fa-search"></i></a>
                     </form>
@@ -81,13 +81,13 @@
         </nav>
     </header>
     <section class="img-section-jim">
-        <div class="contact-img-jim">
+        <div class="contact-img-jim" role="img" aria-label="Background image of cars">
             <h1 class="h1-jim"><span id="bold-text-jim">Contact our </span>car shop.</h1>
             <h2 class="h2-jim">We got the best cars in the world!</h2>
         </div>
     </section>
     <main>
-        <section class="contactform-section-jim">
+        <section class="contact-section-jim">
             <div class="container mt-4">
                 <div class="row mb-5 justify-content-center">
                     <div class="card card-jim bg-light col-md-3 py-4 py-md-2 m-4">
@@ -267,14 +267,14 @@
             <div class="container p-4">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">What we do</h5>
+                        <h5 class="text-uppercase bg-gradient">What we do</h5>
                         <p class="ms-1">
                             CrazyCars sell awesome cars! We got the best cars in the world - buy a sport car or another
                             cool car, from our car shop today!
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Information</h5>
+                        <h5 class="text-uppercase bg-gradient">Information</h5>
                         <ul class="list-unstyled mb-0 ms-1">
                             <li>
                                 <a href="../index.html" class="text-white">Home</a>
@@ -291,7 +291,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase">Let's get social!</h5>
+                        <h5 class="text-uppercase bg-gradient">Let's get social!</h5>
                         <ul class="list-unstyled d-flex align-items-center justify-content-start">
                             <li>
                                 <a class="btn ps-2 social-icons-jim" href="https://facebook.com" target="_blank"
@@ -327,7 +327,7 @@
         </div>
     </footer>
 
-    <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="modalSubscriptionForm"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

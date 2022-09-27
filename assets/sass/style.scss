@@ -8,7 +8,7 @@
     box-shadow: 0px 0px 4px black;
 }
 
-.logo-jim {
+#logo-jim {
     width: 14rem;
     height: auto;
 }
@@ -21,6 +21,7 @@
 .carousel-img-jim {
     width: 33%;
     height: auto;
+    background-color: black;
 }
 
 .contact-img-jim {
@@ -211,9 +212,9 @@
     }
 }
 
-@media screen and (max-width: 340px) {
-    .logo-jim {
-        width: 50vw;
+@media screen and (max-width: 360px) {
+    #logo-jim {
+        width: 40vw;
         height: auto;
     }
 
