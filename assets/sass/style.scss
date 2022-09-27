@@ -1,3 +1,6 @@
+@import 'variables-mixins';
+@import 'buttons';
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +16,7 @@
     }
     a:hover {
         color: #00ADB5;
-        transform: scale(1.1);
+        transform: scale(1.05);
         transition: .2s;
     }
 }
@@ -22,7 +25,8 @@
     background-color: #393E46;
 
     h1,
-    p {
+    p,
+    svg {
         background-color: #00ADB5;
     }
 
@@ -62,7 +66,6 @@
     }
     
     aside {
-        // background-color: #00ADB5;
 
         a {
             color: #222831;
@@ -92,7 +95,6 @@
 }
 
 .quiz-form-dan {
-    // background-color: #00ADB5;
     color: #222831;
 
     .user-info-dan {
@@ -110,9 +112,9 @@
             stroke: #eeeeee;
             stroke-width: 2;
             padding: 0 1rem;
-            animation: bounce 8s ease-in-out infinite;
+            animation: bounce-dan 8s ease-in-out infinite;
 
-            @keyframes bounce {
+            @keyframes bounce-dan {
                 0% {left:0px; top:0px}
                 10% {left:25px; top:0px}
                 20% {left:0px; top:0px}
@@ -133,6 +135,11 @@ footer {
     min-height: 20vh;
     background-color: #222831;
     color: #eeeeee;
+
+    .social-links-dan {
+        @include social-links-dan;
+    }
+    
 }
 
 

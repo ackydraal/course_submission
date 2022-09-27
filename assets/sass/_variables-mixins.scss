@@ -1,0 +1,14 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #222831;
+$secondary-color: #393E46;
+$third-color: #00ADB5;
+$fourth-color: #eeeeee;
+$orange-color: #ff9c05;
+
+@mixin social-links-dan() {
+    list-style-type: none;
+
+    a {
+        color: $third-color;
+    }
+}
