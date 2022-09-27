@@ -181,7 +181,11 @@
     box-shadow: 5px 10px #393E46;
 }
 .card-tom:hover img {
-        filter: blur(5px);
+    filter: blur(5px);
+    transition: 1s;
+}
+.card-tom:hover .link-tom {
+    color: #00ADB5;
 }
 .text-tom2 {
     position: absolute;
@@ -255,4 +259,16 @@
     font-style: italic;
     text-align: center;
     text-shadow: 1px 1px #393E46;
+}
+#hidden-tom {
+    display: none;
+}
+.card-tom:hover #hidden-tom {
+    display: block;
+}
+.nolink-tom {
+    text-decoration: none;
+    color: rgb(227, 67, 67);
+    text-shadow: 2px 2px 4px #222831;
+    font-size: xx-large;
 }
