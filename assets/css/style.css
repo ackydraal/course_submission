@@ -195,6 +195,7 @@
 }
 .form-tom {
     text-align: center;
+    text-shadow: 1px 1px #222831;
 }
 .butt-tom {
     background-color: #222831;
@@ -207,6 +208,7 @@
     text-align: center;
     margin-top: 10vh;
     margin-bottom: 30vh;
+    text-shadow: 1px 1px #222831;
 }
 .tytom-tom {
     bottom: 0;
@@ -269,6 +271,18 @@
 .nolink-tom {
     text-decoration: none;
     color: rgb(227, 67, 67);
-    text-shadow: 2px 2px 4px #222831;
+    text-shadow: 2px 2px 4px #393E46;
     font-size: xx-large;
+    margin-top: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #222831;
+}
+.larger-tom {
+    font-size: x-large;
+    margin-top: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #222831;
+    text-shadow: 2px 2px 4px #393E46;
 }
