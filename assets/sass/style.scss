@@ -22,6 +22,24 @@
     box-shadow: 0px 0px 4px black;
 }
 
+.nav-header-jim a {
+    color: $primary-color;
+    &:hover {
+        color: $third-color;
+    }
+}
+
+.active-jim {
+    text-decoration: underline;
+}
+
+.hover-jim i, .hover-jim a {
+    color: $primary-color;
+    &:hover {
+        color: $third-color;
+    }
+}
+
 .bold-text-jim {
     font-weight: 700;
 }
@@ -90,7 +108,26 @@
     height: 540px;
 }
 
-/* ================= Carousel/Newsletter ================= */
+.svg-jim {
+    font-size: 22px;
+    font-weight: 700;
+    animation: fadeIn-jim 1s ease-in infinite alternate;
+    width:160px;
+    height: 100px;
+    margin-top: -40px;
+    text-shadow: 1px 1px 3px black;
+}
+
+@keyframes fadeIn-jim {
+    from {
+      opacity: 0.2;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+/* ================= Carousel/Newsletter/Footer ================= */
 
 .carousel-jim {
     white-space: nowrap;
@@ -115,6 +152,13 @@
     }
 }
 
+.nav-footer-jim a {
+    color: $fourth-color;
+    &:hover {
+        color: $third-color;
+    }
+}
+
 .newsletter-jim {
     box-shadow: -20px -20px 0 0 rgba(0, 0, 0, 0.159);
     top: -25px;
@@ -127,23 +171,8 @@
     }
 }
 
-.svg-jim {
-    font-size: 22px;
-    font-weight: 700;
-    animation: fadeIn-jim 1s ease-in infinite alternate;
-    width:160px;
-    height: 100px;
-    margin-top: -40px;
-    text-shadow: 1px 1px 3px black;
-}
-
-@keyframes fadeIn-jim {
-    from {
-      opacity: 0.2;
-    }
-    to {
-      opacity: 1;
-    }
+.copyright-jim {
+    @extend .hover-jim;
 }
 
 /* ================== Media queries ================== */
@@ -197,6 +226,10 @@
         a, p {
             font-size: 12px;
         }
+    }
+
+    .copyright-jim {
+        font-size: 12px;
     }
 
     .banner-img-jim {

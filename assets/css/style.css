@@ -4,6 +4,7 @@
   border-radius: 6px;
   color: #eeeeee;
   font-size: 20px;
+  box-shadow: 0px 0px 2px black;
   padding: 8px 16px 10px 16px;
   transition: all300ms ease;
 }
@@ -27,6 +28,24 @@
 
 .header-jim {
   box-shadow: 0px 0px 4px black;
+}
+
+.nav-header-jim a {
+  color: #222831;
+}
+.nav-header-jim a:hover {
+  color: #00ADB5;
+}
+
+.active-jim {
+  text-decoration: underline;
+}
+
+.hover-jim i, .copyright-jim i, .hover-jim a, .copyright-jim a {
+  color: #222831;
+}
+.hover-jim i:hover, .copyright-jim i:hover, .hover-jim a:hover, .copyright-jim a:hover {
+  color: #00ADB5;
 }
 
 .bold-text-jim {
@@ -104,42 +123,6 @@
   height: 540px;
 }
 
-/* ================= Carousel/Newsletter ================= */
-.carousel-jim {
-  white-space: nowrap;
-}
-.carousel-jim h3, .carousel-jim p {
-  background-color: rgba(0, 172, 181, 0.662745098);
-  text-shadow: 1px 1px black;
-}
-
-.carousel-img-jim {
-  width: 33%;
-  height: auto;
-  background-color: black;
-}
-
-.carousel-link-jim {
-  color: #eeeeee;
-}
-.carousel-link-jim:hover {
-  color: rgb(231, 231, 231);
-  transition: 1s;
-  transform: scale(1.1);
-}
-
-.newsletter-jim {
-  box-shadow: -20px -20px 0 0 rgba(0, 0, 0, 0.159);
-  top: -25px;
-  margin-top: 100px;
-  position: relative;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.newsletter-jim h3 {
-  padding: 0 10px 0 10px;
-}
-
 .svg-jim {
   font-size: 22px;
   font-weight: 700;
@@ -168,6 +151,49 @@
     opacity: 1;
   }
 }
+/* ================= Carousel/Newsletter/Footer ================= */
+.carousel-jim {
+  white-space: nowrap;
+}
+.carousel-jim h3, .carousel-jim p {
+  background-color: rgba(0, 172, 181, 0.662745098);
+  text-shadow: 1px 1px black;
+}
+
+.carousel-img-jim {
+  width: 33%;
+  height: auto;
+  background-color: black;
+}
+
+.carousel-link-jim {
+  color: #eeeeee;
+}
+.carousel-link-jim:hover {
+  color: rgb(231, 231, 231);
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.nav-footer-jim a {
+  color: #eeeeee;
+}
+.nav-footer-jim a:hover {
+  color: #00ADB5;
+}
+
+.newsletter-jim {
+  box-shadow: -20px -20px 0 0 rgba(0, 0, 0, 0.159);
+  top: -25px;
+  margin-top: 100px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.newsletter-jim h3 {
+  padding: 0 10px 0 10px;
+}
+
 /* ================== Media queries ================== */
 @media screen and (max-width: 768px) {
   .newsletter-jim {
@@ -206,6 +232,9 @@
     font-size: 14px;
   }
   .footer-jim a, .footer-jim p {
+    font-size: 12px;
+  }
+  .copyright-jim {
     font-size: 12px;
   }
   .banner-img-jim {
