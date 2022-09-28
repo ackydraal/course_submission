@@ -1,4 +1,5 @@
-$font-stack: Arial, Helvetica, sans-serif;
+$font-stack-h: 'Raleway', Arial;
+$font-stack-p: 'Open Sans', sans-serif;
 $primary-color: #222831;
 $secondary-color: #393E46;
 $third-color: #00ADB5;
@@ -11,8 +12,10 @@ $orange-color: #ff9c05;
     a {
         color: $fourth-color; 
     }
-    
+    i:hover,
     a:hover {
         color: $third-color;
-    } 
+        transform: scale(1.2);
+        transition: .2s;
+    }
 }

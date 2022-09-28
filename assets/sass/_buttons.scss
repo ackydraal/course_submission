@@ -6,10 +6,9 @@
     padding: 0.5rem;
 
     &:hover {
-        background-color: $orange-color !important;
+        background-color: darken($orange-color, 10%) !important;
         border-color: $primary-color !important;
         color: $primary-color !important;
-        filter: brightness(0.85);
         transform: scale(.98);
     }  
 }
