@@ -206,6 +206,9 @@
   }
 }
 
+.faq-dan {
+  width: 50vw;
+}
 .faq-dan h5 {
   font-weight: 600;
   text-decoration: 2px underline #00ADB5;
@@ -316,9 +319,15 @@
     color: #00ADB5;
     transform: none;
   }
+  .faq-dan {
+    min-width: 100vw;
+  }
 }
 @media screen and (max-width: 768px) {
   .category-dan a {
     border-style: none;
+  }
+  .quiz-form-dan {
+    min-width: 100vw;
   }
 }/*# sourceMappingURL=style.css.map */

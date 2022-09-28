@@ -196,6 +196,7 @@
 }
 
 .faq-dan {
+    width: 50vw;
 
     h5 {
         font-weight: 600;
@@ -333,6 +334,10 @@
             transform: none;
         }
     }
+
+    .faq-dan {
+        min-width: 100vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -341,5 +346,9 @@
         a {
             border-style: none;
         }
+    }
+
+    .quiz-form-dan {
+        min-width: 100vw;
     }
 }
