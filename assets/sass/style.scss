@@ -28,6 +28,15 @@
     background-color: $primary-color;
     min-height: 10vh;
 
+    .navbar-brand {
+        font-weight: 600;
+        font-size: 175%;
+
+        span {
+            color: $third-color;
+        }
+    }
+
     a {
         color: $fourth-color;
     }
@@ -56,6 +65,10 @@
 
     .card {
         border: none;
+
+        img {
+            box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.5);
+        }
     }
 }
 
@@ -82,7 +95,16 @@
         border: none;
     }
 
+    h2 {
+        font-weight: 600;
+    }
+
     aside {
+
+        h3,
+        h4 {
+            font-weight: 600;
+        }
 
         a {
             color: $primary-color;
@@ -205,12 +227,23 @@
         align-items: center;
         justify-content: space-evenly;
         
+        p {
+            font-weight: 600;
+
+            .span-dan {
+                color: $third-color;
+            }
+        }
+
         nav {
             margin: 1rem;
         }
 
         ul {
-            display: flex;   
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
         }
 
         .social-links-dan {
@@ -233,12 +266,16 @@
         table {
             font-family: $font-stack-p;
             text-transform: capitalize;
-            margin: 0 1rem 1rem 1rem;
+            margin: 1rem;
             
+            .th-dan {
+                border-bottom: 1px solid $third-color; 
+            }
+
             th {
                 color: $fourth-color;
-                border-bottom: 1px solid $third-color; 
                 padding: 0 1rem;
+                text-align: right;
             }
 
             th:empty {
@@ -248,19 +285,39 @@
 
             td {
                 padding: 0 1rem;
+                text-align: right;
+            }
+
+            .colspan-dan {
+                text-align: center;
             }
         }
 
-        button {
+        .newsletter-dan {
             text-transform: capitalize;
             font-size: 125%;
             font-weight: 600;
-            margin: 3rem;
+            margin: 1rem;
             padding: 2rem;
         }
-    }
-    
 
+        .modal-header {
+            background-color: $secondary-color;
+            color: $fourth-color;
+
+            h5 {
+                margin: 0 auto;
+            }
+        }
+
+        .modal-body {
+            background-color: $third-color;
+
+            input {
+                padding: 3px;
+            }
+        }
+    }
 }
 
 /* Media queries */

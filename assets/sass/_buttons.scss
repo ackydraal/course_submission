@@ -4,6 +4,7 @@
     border: 1px solid $primary-color;
     border-radius: .5rem;
     padding: 0.5rem;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
 
     &:hover {
         background-color: darken($orange-color, 10%) !important;
