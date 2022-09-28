@@ -6,16 +6,7 @@ $third-color: #00ADB5;
 $fourth-color: #eeeeee;
 $orange-color: #ff9c05;
 
-@mixin social-links-dan() {
-    list-style-type: none;
-
-    a {
-        color: $fourth-color; 
-    }
-    i:hover,
-    a:hover {
-        color: $third-color;
-        transform: scale(1.2);
-        transition: .2s;
-    }
+@mixin scheme-color($background, $text) {
+   background-color: $background;
+   color: $text;
 }

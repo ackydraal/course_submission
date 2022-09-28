@@ -1,4 +1,5 @@
 .btn-dan {
+  font-family: "Open Sans", sans-serif;
   background-color: #ff9c05;
   color: #222831;
   border: 1px solid #222831;
@@ -93,6 +94,8 @@
 .articles-dan .card {
   border: none;
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+  background-color: rgba(225, 225, 225, 0.8);
+  color: #222831;
 }
 .articles-dan h2 {
   font-weight: 600;
@@ -105,10 +108,7 @@
   color: #222831;
 }
 .articles-dan aside .bg-dark-dan {
-  background-color: #393E46;
-}
-.articles-dan aside .bg-dark-dan p,
-.articles-dan aside .bg-dark-dan h4 {
+  background-color: #505762;
   color: #eeeeee;
 }
 .articles-dan aside i:hover,
@@ -303,8 +303,10 @@
 .footer-section-dan .footer-dan .modal-body {
   background-color: #00ADB5;
 }
-.footer-section-dan .footer-dan .modal-body input {
+.footer-section-dan .footer-dan .modal-body input,
+.footer-section-dan .footer-dan .modal-body button {
   padding: 3px;
+  box-shadow: none;
 }
 
 /* Media queries */

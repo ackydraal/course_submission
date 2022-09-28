@@ -96,6 +96,7 @@
     .card {
         border: none;
         box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+        @include scheme-color(rgba(225, 225, 225, 0.8), $primary-color);
     }
 
     h2 {
@@ -114,12 +115,7 @@
         }
 
         .bg-dark-dan {
-            background-color: $secondary-color;
-
-            p,
-            h4 {
-                color: $fourth-color;
-            }
+            @include scheme-color(lighten($secondary-color, 10%), $fourth-color)
         }
 
         i:hover,
@@ -317,8 +313,10 @@
         .modal-body {
             background-color: $third-color;
 
-            input {
+            input,
+            button {
                 padding: 3px;
+                box-shadow: none;
             }
         }
     }
