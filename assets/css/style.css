@@ -35,8 +35,8 @@
     border-radius: 100%;
     background-color: #00ADB5 !important;
 }
-.carousel-control-prev,
-.carousel-control-next {
+.tom-prev,
+.tom-next {
     background-color: #222831;
     opacity: .2;
 }
