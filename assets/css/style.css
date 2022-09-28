@@ -277,3 +277,13 @@
     margin-top: 10px;
     margin-bottom: 0;
 }
+@media screen and (max-width: 500px) {
+    ul {
+        display: block;
+        width: 100%;
+    }
+    .div-textbox {
+        float:none;
+        width: auto;
+    }
+}
