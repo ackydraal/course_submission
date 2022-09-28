@@ -101,12 +101,16 @@
   border-color: #222831;
 }
 .articles-dan nav a:hover {
-  color: red;
-  border-color: red;
+  color: #00ADB5;
+  border-color: #222831;
 }
 
 .quiz-form-dan {
   color: #222831;
+}
+.quiz-form-dan legend {
+  font-family: "Raleway", Arial;
+  font-weight: 600;
 }
 .quiz-form-dan .user-info-dan {
   background-color: #00ADB5;
@@ -117,6 +121,9 @@
 .quiz-form-dan .question-area-dan {
   background-color: #393E46;
   color: #eeeeee;
+}
+.quiz-form-dan .question-area-dan h5 {
+  font-weight: 600;
 }
 .quiz-form-dan .question-area-dan select {
   border-radius: 5px;
@@ -178,31 +185,76 @@
   }
 }
 
+.faq-dan h5 {
+  font-weight: 600;
+  text-decoration: 2px underline #00ADB5;
+  font-size: 150%;
+  padding: 1rem 0;
+}
 .faq-dan .accordion-button {
   background-color: #00ADB5;
   color: #222831;
+  font-weight: 600;
 }
 .faq-dan .accordion-button:focus {
   background-color: #393E46;
   color: #eeeeee;
 }
 
-footer {
+.footer-section-dan {
   min-height: 20vh;
   background-color: #222831;
   color: #eeeeee;
 }
-footer .social-links-dan {
-  list-style-type: none;
+.footer-section-dan .footer-dan {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
-footer .social-links-dan a {
+.footer-section-dan .footer-dan nav {
+  margin: 1rem;
+}
+.footer-section-dan .footer-dan ul {
+  display: flex;
+}
+.footer-section-dan .footer-dan .social-links-dan {
+  width: 100%;
+  list-style-type: none;
+  padding: 1rem;
+}
+.footer-section-dan .footer-dan .social-links-dan a {
   color: #eeeeee;
 }
-footer .social-links-dan i:hover,
-footer .social-links-dan a:hover {
+.footer-section-dan .footer-dan .social-links-dan i:hover,
+.footer-section-dan .footer-dan .social-links-dan a:hover {
   color: #00ADB5;
   transform: scale(1.2);
   transition: 0.2s;
+}
+.footer-section-dan .footer-dan table {
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+  margin: 0 1rem 1rem 1rem;
+}
+.footer-section-dan .footer-dan table th {
+  color: #eeeeee;
+  border-bottom: 1px solid #00ADB5;
+  padding: 0 1rem;
+}
+.footer-section-dan .footer-dan table th:empty {
+  background: transparent;
+  border: none;
+}
+.footer-section-dan .footer-dan table td {
+  padding: 0 1rem;
+}
+.footer-section-dan .footer-dan button {
+  text-transform: capitalize;
+  font-size: 125%;
+  font-weight: 600;
+  margin: 3rem;
+  padding: 2rem;
 }
 
 /* Media queries */
