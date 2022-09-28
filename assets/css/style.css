@@ -17,6 +17,7 @@
   box-sizing: border-box;
 }
 
+/* =================== Body/Header =================== */
 .body-jim h1, .body-jim h2, .body-jim h3, .body-jim h4, .body-jim h5 {
   font-family: "Raleway", sans-serif;
 }
@@ -26,6 +27,10 @@
 
 .header-jim {
   box-shadow: 0px 0px 4px black;
+}
+
+.bold-text-jim {
+  font-weight: 700;
 }
 
 #logo-jim {
@@ -38,6 +43,7 @@
   list-style: none;
 }
 
+/* ==================== Banner ==================== */
 .banner-img-jim {
   background: url(../images/contact-img.jpg) no-repeat;
   background-color: black;
@@ -56,24 +62,25 @@
 .h1-jim {
   font-size: 40px;
   background-color: rgba(0, 172, 181, 0.662745098);
-  color: white;
+  color: #eeeeee;
   text-shadow: 1px 1px black;
   box-shadow: -15px -15px 0 0 rgba(0, 0, 0, 0.503);
   padding: 0 0.5rem 0.3rem 0.5rem;
 }
 
 .h2-jim {
-  color: white;
+  color: #eeeeee;
   background-color: rgba(0, 172, 181, 0.662745098);
   text-shadow: 1px 1px black;
   padding: 0 0.5rem 0.3rem 0.5rem;
 }
 
+/* =============== Contactform-section ================ */
 .icon-jim {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  color: white;
+  color: #eeeeee;
   background: #00ADB5;
   margin: 0 auto;
   margin-top: 10px;
@@ -88,10 +95,6 @@
   box-shadow: 0px 0px 10px -6px inset black;
 }
 
-.bold-text-jim {
-  font-weight: 700;
-}
-
 .form-shadow-jim {
   box-shadow: 0px 0px 10px #00ADB5;
 }
@@ -101,6 +104,7 @@
   height: 540px;
 }
 
+/* ================= Carousel/Newsletter ================= */
 .carousel-jim {
   white-space: nowrap;
 }
@@ -116,7 +120,7 @@
 }
 
 .carousel-link-jim {
-  color: white;
+  color: #eeeeee;
 }
 .carousel-link-jim:hover {
   color: rgb(231, 231, 231);
@@ -164,6 +168,7 @@
     opacity: 1;
   }
 }
+/* ================== Media queries ================== */
 @media screen and (max-width: 768px) {
   .newsletter-jim {
     flex-wrap: wrap;
@@ -192,14 +197,24 @@
 }
 @media screen and (max-width: 500px) {
   .h1-jim {
-    font-size: 20px;
+    font-size: 22px;
   }
   .h2-jim {
+    font-size: 16px;
+  }
+  .card-jim p, .card-jim q, .card-jim td {
     font-size: 14px;
   }
+  .footer-jim a, .footer-jim p {
+    font-size: 12px;
+  }
   .banner-img-jim {
+    background-color: black;
+    box-shadow: 0px 0px 10px inset black;
     width: 100%;
     height: 30vh;
+    background-size: cover;
+    background-position: top;
   }
   .carousel-jim h3, .carousel-jim p {
     line-height: 1.1;

@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+/* =================== Body/Header =================== */
+
 .body-jim { 
     h1, h2, h3, h4, h5 {
         font-family: $font-stack-h;
@@ -20,15 +22,21 @@
     box-shadow: 0px 0px 4px black;
 }
 
+.bold-text-jim {
+    font-weight: 700;
+}
+
 #logo-jim {
     width: 14rem;
     height: auto;
 }
 
 .social-icons-jim {
-    color: #00ADB5;
+    color: $third-color;
     list-style: none;
 }
+
+/* ==================== Banner ==================== */
 
 .banner-img-jim {
     background: url(../images/contact-img.jpg) no-repeat;
@@ -39,25 +47,27 @@
 .h1-jim {
     font-size: 40px;
     background-color: #00acb5a9;
-    color: white;
+    color: $fourth-color;
     text-shadow: 1px 1px black;
     box-shadow: -15px -15px 0 0 rgba(0, 0, 0, 0.503);
     padding: 0 0.5rem 0.3rem 0.5rem;
 }
 
 .h2-jim {
-    color: white;
+    color: $fourth-color;
     background-color: #00acb5a9;
     text-shadow: 1px 1px black;
     padding: 0 0.5rem 0.3rem 0.5rem;
 }
 
+/* =============== Contactform-section ================ */
+
 .icon-jim {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    color: white;
-    background: #00ADB5;
+    color: $fourth-color;
+    background: $third-color;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -71,18 +81,16 @@
     box-shadow: 0px 0px 10px -6px inset black;
 }
 
-.bold-text-jim {
-    font-weight: 700;
-}
-
 .form-shadow-jim {
-    box-shadow: 0px 0px 10px #00ADB5;
+    box-shadow: 0px 0px 10px $third-color;
 }
 
 .google-maps-jim {
     width: 100%;
     height: 540px;
 }
+
+/* ================= Carousel/Newsletter ================= */
 
 .carousel-jim {
     white-space: nowrap;
@@ -99,7 +107,7 @@
 }
 
 .carousel-link-jim {
-    color: white;
+    color: $fourth-color;
     &:hover {
         color: rgb(231, 231, 231);
         transition: 1s;
@@ -138,6 +146,8 @@
     }
 }
 
+/* ================== Media queries ================== */
+
 @media screen and (max-width: 768px) {
     .newsletter-jim {
         flex-wrap: wrap;
@@ -170,16 +180,27 @@
 
 @media screen and (max-width: 500px) {
     .h1-jim {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .h2-jim {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .card-jim {
+        p, q, td {
+            font-size: 14px;
+        }
+    }
+
+    .footer-jim {
+        a, p {
+            font-size: 12px;
+        }
     }
 
     .banner-img-jim {
-        width: 100%;
-        height: 30vh;
+        @include banner-jim(top, 30vh)
     }
 
     .carousel-jim h3, .carousel-jim p {
@@ -193,12 +214,13 @@
         height: auto;
     }
 
-    .carousel-jim h3 {
-        font-size: 12px;
-    }
-
-    .carousel-jim p {
-        font-size: 10px;
+    .carousel-jim {
+        h3 {
+            font-size: 12px;
+        }
+        p {
+            font-size: 10px;
+        }
     }
 
     .svg-jim {
