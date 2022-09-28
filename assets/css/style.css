@@ -46,6 +46,7 @@
 }
 .header-dan a {
   color: #eeeeee;
+  font-size: 120%;
 }
 .header-dan a:hover {
   color: #00ADB5;
@@ -59,6 +60,7 @@
 .latest-article-section-dan h1,
 .latest-article-section-dan p {
   background-color: #00ADB5;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.8);
 }
 
 .latest-article-dan {
@@ -90,6 +92,7 @@
 }
 .articles-dan .card {
   border: none;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
 .articles-dan h2 {
   font-weight: 600;
