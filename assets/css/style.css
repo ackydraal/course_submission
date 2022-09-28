@@ -17,6 +17,13 @@
   box-sizing: border-box;
 }
 
+.body-jim h1, .body-jim h2, .body-jim h3, .body-jim h4, .body-jim h5 {
+  font-family: "Raleway", sans-serif;
+}
+.body-jim p, .body-jim a, .body-jim label, .body-jim input {
+  font-family: "Open Sans", sans-serif;
+}
+
 .header-jim {
   box-shadow: 0px 0px 4px black;
 }
