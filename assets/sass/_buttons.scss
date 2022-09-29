@@ -1,0 +1,16 @@
+.btn-dan {
+    font-family: $font-stack-p;
+    background-color: $orange-color;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    border-radius: .5rem;
+    padding: 0.5rem;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.4);
+
+    &:hover {
+        background-color: darken($orange-color, 10%) !important;
+        border-color: $primary-color !important;
+        color: $primary-color !important;
+        transform: scale(.98);
+    }  
+}
