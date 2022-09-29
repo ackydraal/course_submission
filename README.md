@@ -3,9 +3,15 @@
 
 ***
 <br>
+
 wireframe.product-niko
 
 ![products](assets/images/wireframe.product-niko.png)
+=======
+### Wireframe for blog page - Daniel Junttila
+
+![wireframe](assets/images/wireframe-blog-dan.png)
+
 
 <br>
 ***

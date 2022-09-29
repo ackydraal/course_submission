@@ -1,0 +1,12 @@
+$font-stack-h: 'Raleway', Arial;
+$font-stack-p: 'Open Sans', sans-serif;
+$primary-color: #222831;
+$secondary-color: #393E46;
+$third-color: #00ADB5;
+$fourth-color: #eeeeee;
+$orange-color: #ff9c05;
+
+@mixin scheme-color($background, $text) {
+   background-color: $background;
+   color: $text;
+}

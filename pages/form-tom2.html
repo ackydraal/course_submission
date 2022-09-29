@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Third assignment">
+    <meta name="keywords" content="sponsorship, form, sports-car, apply sponsorship">
+    <meta name="author" content="Tommy Björkman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="/assets/images/oncoming-automobile.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    <title>Welcome to Crazy Cars</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="body-tom">
+    <header></header>
+        <h1 class="h1form2-tom">Apply for sponsorship from Crazy cars</h1>
+    </header>
+    <main>
+        <div class="form2-tom">
+            <form action="/action_page.php">
+                <div class="names2-tom">
+                    <label for="fname2-tom">First name:</label><br>
+                    <input type="text" id="fname2-tom" name="fname2-tom" placeholder="First name"><br>
+                    <label for="lname2-tom">Last name:</label><br>
+                    <input type="text" id="lname2-tom" name="lname2-tom" placeholder="Last name"><br>
+                    <label for="org2-tom">Organisation:</label><br>
+                    <input type="text" id="org2-tom" name="org2-tom" placeholder="Name of Organisation"><br>
+                </div><br>
+                <div class="adress2-tom">
+                    <label for="adress2-tom">Address:</label><br>
+                    <input type="text" id="adress-tom" name="adress-tom" placeholder="Address"><br>
+                    <label for="city2-tom">City:</label><br>
+                    <input type="text" id="city2-tom" name="city2-tom" placeholder="City"><br>
+                    <label for="zipcode2-tom">Zip code:</label><br>
+                    <input type="text" id="zipcode2-tom" name="zipcode2-tom" placeholder="Zip code"><br>
+                </div>
+                <label for="country2-tom">Country*</label><br>
+                <div class="select-tom">
+                <select id="country2-tom" name="country2-tom">
+                    <option value="sweden2-tom">Sweden</option>
+                    <option value="norway2-tom">Norway</option>
+                    <option value="finland2-tom">Finland</option>
+                    <option value="denmark2-tom">Denmark</option>
+                </select>
+                </div><br>
+                <label for="message2-tom">Tell us about yourself</label><br>
+                <textarea class="textarea2-tom" id="message2-tom" name="message2-tom" placeholder="Tell us why we should sponsor you"></textarea><br><br>
+                <p>Are you a non-profit organisation?</p>
+                <input type="radio" id="yes2-tom" name="nonprofit-tom" value="Yes">
+                <label for="yes2-tom">YES</label><br>
+                <input type="radio" id="no-tom" name="nonprofit-tom" value="NO">
+                <label for="no-tom">NO</label><br><br>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="understanding-tom">
+                    <label class="form-check-label" for="understanding-tom">Click this text when you have re-read everything you have written before submitting</label>
+                </div><br><br>
+                <input type="submit" class="button2-tom" value="Submit"><br><br>
+                <input type="reset" class="reset2-tom" value="Reset">
+            </form> 
+        </div>
+    </main>
+    <footer>
+      <p class="infoform-tom">*Please note that at the moment we offer sponsorship only in northern europe. If your country is not listed we do not offer sponsorship in your region as of yet.</p>
+    </footer>
+</body>
+</html>
