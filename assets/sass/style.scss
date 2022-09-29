@@ -52,6 +52,13 @@
         text-decoration: 3px underline $third-color;
         font-weight: bold;
     }
+
+    .active-dan:hover {
+        text-decoration: 2px underline $third-color;
+        font-weight: bold;
+        color: $fourth-color;
+        transform: none;
+    }
 }
 
 .latest-article-section-dan {

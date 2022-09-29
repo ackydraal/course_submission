@@ -58,6 +58,12 @@
   text-decoration: 3px underline #00ADB5;
   font-weight: bold;
 }
+.header-dan .active-dan:hover {
+  text-decoration: 2px underline #00ADB5;
+  font-weight: bold;
+  color: #eeeeee;
+  transform: none;
+}
 
 .latest-article-section-dan {
   background-color: #393E46;
