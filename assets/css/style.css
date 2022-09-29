@@ -277,3 +277,11 @@
     margin-top: 10px;
     margin-bottom: 0;
 }
+@media screen and (max-width: 770px) {
+    .navv-tom, .nav-tom {
+        display: block;
+    }
+    .body-tom {
+        display: block;
+    }
+}
