@@ -41,10 +41,10 @@
   text-decoration: underline;
 }
 
-.hover-jim i, .copyright-jim i, .hover-jim a, .copyright-jim a {
+.hover-jim i, .links-jim i, .card-jim i, .hover-jim a, .links-jim a, .card-jim a {
   color: #222831;
 }
-.hover-jim i:hover, .copyright-jim i:hover, .hover-jim a:hover, .copyright-jim a:hover {
+.hover-jim i:hover, .links-jim i:hover, .card-jim i:hover, .hover-jim a:hover, .links-jim a:hover, .card-jim a:hover {
   color: #00ADB5;
 }
 

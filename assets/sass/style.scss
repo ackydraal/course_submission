@@ -97,6 +97,7 @@
 
 .card-jim {
     box-shadow: 0px 0px 10px -6px inset $third-color;
+    @extend .links-jim;
 }
 
 .form-shadow-jim {
@@ -171,7 +172,7 @@
     }
 }
 
-.copyright-jim {
+.links-jim {
     @extend .hover-jim;
 }
 
