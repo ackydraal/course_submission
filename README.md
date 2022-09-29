@@ -1,3 +1,7 @@
+This site is made for a car dealership for selling sports cars. Name of the company is Crazy cars. 
+
+
+
 
 <br> 
 
