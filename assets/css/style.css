@@ -1,3 +1,270 @@
+.btn-jim {
+  background-color: #00ADB5;
+  border: none;
+  border-radius: 6px;
+  color: #eeeeee;
+  font-size: 20px;
+  box-shadow: 0px 0px 2px black;
+  padding: 8px 16px 10px 16px;
+  transition: all300ms ease;
+}
+.btn-jim:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =================== Body/Header =================== */
+.body-jim h1, .body-jim h2, .body-jim h3, .body-jim h4, .body-jim h5 {
+  font-family: "Raleway", sans-serif;
+}
+.body-jim p, .body-jim a, .body-jim label, .body-jim input {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header-jim {
+  box-shadow: 0px 0px 4px black;
+}
+
+.nav-header-jim a {
+  color: #222831;
+}
+.nav-header-jim a:hover {
+  color: #00ADB5;
+}
+
+.active-jim {
+  text-decoration: underline;
+}
+
+.hover-jim i, .links-jim i, .card-jim i, .hover-jim a, .links-jim a, .card-jim a {
+  color: #222831;
+}
+.hover-jim i:hover, .links-jim i:hover, .card-jim i:hover, .hover-jim a:hover, .links-jim a:hover, .card-jim a:hover {
+  color: #00ADB5;
+}
+
+.bold-text-jim {
+  font-weight: 700;
+}
+
+#logo-jim {
+  width: 14rem;
+  height: auto;
+}
+
+.social-icons-jim {
+  color: #00ADB5;
+  list-style: none;
+}
+
+/* ==================== Banner ==================== */
+.banner-img-jim {
+  background: url(../images/contact-img.jpg) no-repeat;
+  background-color: black;
+  box-shadow: 0px 0px 10px inset black;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.h1-jim {
+  font-size: 40px;
+  background-color: rgba(0, 172, 181, 0.662745098);
+  color: #eeeeee;
+  text-shadow: 1px 1px black;
+  box-shadow: -15px -15px 0 0 rgba(0, 0, 0, 0.503);
+  padding: 0 0.5rem 0.3rem 0.5rem;
+}
+
+.h2-jim {
+  color: #eeeeee;
+  background-color: rgba(0, 172, 181, 0.662745098);
+  text-shadow: 1px 1px black;
+  padding: 0 0.5rem 0.3rem 0.5rem;
+}
+
+/* =============== Contactform-section ================ */
+.icon-jim {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #eeeeee;
+  background: #00ADB5;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.icon-jim:hover {
+  transition: 1s;
+  transform: scale(1.5);
+}
+
+.card-jim {
+  box-shadow: 0px 0px 10px -6px inset #00ADB5;
+}
+
+.form-shadow-jim {
+  box-shadow: 0px 0px 10px #00ADB5;
+}
+
+.google-maps-jim {
+  width: 100%;
+  height: 540px;
+}
+
+.svg-jim {
+  font-size: 22px;
+  font-weight: 700;
+  -webkit-animation: fadeIn-jim 1s ease-in infinite alternate;
+          animation: fadeIn-jim 1s ease-in infinite alternate;
+  width: 160px;
+  height: 100px;
+  margin-top: -40px;
+  text-shadow: 1px 1px 3px black;
+}
+
+@-webkit-keyframes fadeIn-jim {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn-jim {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* ================= Carousel/Newsletter/Footer ================= */
+.carousel-jim {
+  white-space: nowrap;
+}
+.carousel-jim h3, .carousel-jim p {
+  background-color: rgba(0, 172, 181, 0.662745098);
+  text-shadow: 1px 1px black;
+}
+
+.carousel-img-jim {
+  width: 33%;
+  height: auto;
+  background-color: black;
+}
+
+.carousel-link-jim {
+  color: #eeeeee;
+}
+.carousel-link-jim:hover {
+  color: rgb(231, 231, 231);
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+.nav-footer-jim a {
+  color: #eeeeee;
+}
+.nav-footer-jim a:hover {
+  color: #00ADB5;
+}
+
+.newsletter-jim {
+  box-shadow: -20px -20px 0 0 rgba(0, 0, 0, 0.159);
+  top: -25px;
+  margin-top: 100px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.newsletter-jim h3 {
+  padding: 0 10px 0 10px;
+}
+
+/* ================== Media queries ================== */
+@media screen and (max-width: 768px) {
+  .newsletter-jim {
+    flex-wrap: wrap;
+  }
+  .newsletter-jim h3 {
+    font-size: 18px;
+  }
+  .newsletter-jim h4 {
+    font-size: 12px;
+  }
+  .newsletter-jim a {
+    font-size: 10px;
+  }
+  .google-maps-jim {
+    height: 300px;
+  }
+  .carousel-jim h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .carousel-img-jim {
+    width: 50%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .h1-jim {
+    font-size: 22px;
+  }
+  .h2-jim {
+    font-size: 16px;
+  }
+  .card-jim p, .card-jim q, .card-jim td {
+    font-size: 14px;
+  }
+  .footer-jim a, .footer-jim p {
+    font-size: 12px;
+  }
+  .copyright-jim {
+    font-size: 12px;
+  }
+  .banner-img-jim {
+    background-color: black;
+    box-shadow: 0px 0px 10px inset black;
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: top;
+  }
+  .carousel-jim h3, .carousel-jim p {
+    line-height: 1.1;
+  }
+}
+@media screen and (max-width: 360px) {
+  #logo-jim {
+    width: 40vw;
+    height: auto;
+  }
+  .carousel-jim h3 {
+    font-size: 12px;
+  }
+  .carousel-jim p {
+    font-size: 10px;
+  }
+  .svg-jim {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=style.css.map */
+=======
 * {
     box-sizing: border-box;
 }

@@ -1,9 +1,31 @@
+
+$font-stack-h: 'Raleway', sans-serif;
+
 $font-stack-h: 'Raleway', Arial;
+
 $font-stack-p: 'Open Sans', sans-serif;
 $primary-color: #222831;
 $secondary-color: #393E46;
 $third-color: #00ADB5;
 $fourth-color: #eeeeee;
+
+
+@mixin flex-center-jim($flex-direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: $flex-direction;
+}
+
+@mixin banner-jim($background-position, $height) {
+    background-color: black;
+    box-shadow: 0px 0px 10px inset black;
+    width: 100%;
+    height: $height;
+    background-size: cover;
+    background-position: $background-position;
+
 $orange-color: #ff9c05;
 
 @mixin scheme-color($background, $text) {

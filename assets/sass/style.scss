@@ -1,12 +1,22 @@
 @import 'variables-mixins';
 @import 'buttons';
 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* =================== Body/Header =================== */
+
+.body-jim { 
+    h1, h2, h3, h4, h5 {
+        font-family: $font-stack-h;
+    }
+    p, a, label, input {
+=======
 .body-dan {
     h1,
     h2,
@@ -20,10 +30,254 @@
     a,
     label,
     input {
+
         font-family: $font-stack-p;
     }
 }
 
+
+.header-jim {
+    box-shadow: 0px 0px 4px black;
+}
+
+.nav-header-jim a {
+    color: $primary-color;
+    &:hover {
+        color: $third-color;
+    }
+}
+
+.active-jim {
+    text-decoration: underline;
+}
+
+.hover-jim i, .hover-jim a {
+    color: $primary-color;
+    &:hover {
+        color: $third-color;
+    }
+}
+
+.bold-text-jim {
+    font-weight: 700;
+}
+
+#logo-jim {
+    width: 14rem;
+    height: auto;
+}
+
+.social-icons-jim {
+    color: $third-color;
+    list-style: none;
+}
+
+/* ==================== Banner ==================== */
+
+.banner-img-jim {
+    background: url(../images/contact-img.jpg) no-repeat;
+    @include banner-jim(top, 40vh);
+    @include flex-center-jim(column);
+}
+
+.h1-jim {
+    font-size: 40px;
+    background-color: #00acb5a9;
+    color: $fourth-color;
+    text-shadow: 1px 1px black;
+    box-shadow: -15px -15px 0 0 rgba(0, 0, 0, 0.503);
+    padding: 0 0.5rem 0.3rem 0.5rem;
+}
+
+.h2-jim {
+    color: $fourth-color;
+    background-color: #00acb5a9;
+    text-shadow: 1px 1px black;
+    padding: 0 0.5rem 0.3rem 0.5rem;
+}
+
+/* =============== Contactform-section ================ */
+
+.icon-jim {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: $fourth-color;
+    background: $third-color;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    &:hover {
+        transition: 1s;
+        transform: scale(1.5);
+    }
+}
+
+.card-jim {
+    box-shadow: 0px 0px 10px -6px inset $third-color;
+    @extend .links-jim;
+}
+
+.form-shadow-jim {
+    box-shadow: 0px 0px 10px $third-color;
+}
+
+.google-maps-jim {
+    width: 100%;
+    height: 540px;
+}
+
+.svg-jim {
+    font-size: 22px;
+    font-weight: 700;
+    animation: fadeIn-jim 1s ease-in infinite alternate;
+    width:160px;
+    height: 100px;
+    margin-top: -40px;
+    text-shadow: 1px 1px 3px black;
+}
+
+@keyframes fadeIn-jim {
+    from {
+      opacity: 0.2;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+/* ================= Carousel/Newsletter/Footer ================= */
+
+.carousel-jim {
+    white-space: nowrap;
+    h3, p {
+        background-color: #00acb5a9;
+        text-shadow: 1px 1px black;
+    }
+}
+
+.carousel-img-jim {
+    width: 33%;
+    height: auto;
+    background-color: black;
+}
+
+.carousel-link-jim {
+    color: $fourth-color;
+    &:hover {
+        color: rgb(231, 231, 231);
+        transition: 1s;
+        transform: scale(1.1);
+    }
+}
+
+.nav-footer-jim a {
+    color: $fourth-color;
+    &:hover {
+        color: $third-color;
+    }
+}
+
+.newsletter-jim {
+    box-shadow: -20px -20px 0 0 rgba(0, 0, 0, 0.159);
+    top: -25px;
+    margin-top: 100px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    h3 {
+        padding: 0 10px 0 10px;
+    }
+}
+
+.links-jim {
+    @extend .hover-jim;
+}
+
+/* ================== Media queries ================== */
+
+@media screen and (max-width: 768px) {
+    .newsletter-jim {
+        flex-wrap: wrap;
+        h3 {
+            font-size: 18px;
+        }
+        h4 {
+            font-size: 12px;
+        }
+        a {
+            font-size: 10px; 
+        }
+    }
+
+    .google-maps-jim {
+        height: 300px;
+    }
+
+    .carousel-jim h3 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-img-jim {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .h1-jim {
+        font-size: 22px;
+    }
+
+    .h2-jim {
+        font-size: 16px;
+    }
+
+    .card-jim {
+        p, q, td {
+            font-size: 14px;
+        }
+    }
+
+    .footer-jim {
+        a, p {
+            font-size: 12px;
+        }
+    }
+
+    .copyright-jim {
+        font-size: 12px;
+    }
+
+    .banner-img-jim {
+        @include banner-jim(top, 30vh)
+    }
+
+    .carousel-jim h3, .carousel-jim p {
+        line-height: 1.1;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #logo-jim {
+        width: 40vw;
+        height: auto;
+    }
+
+    .carousel-jim {
+        h3 {
+            font-size: 12px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+
+    .svg-jim {
+        font-size: 14px;
+=======
 .header-dan {
     background-color: $primary-color;
     min-height: 10vh;
@@ -360,5 +614,6 @@
 
     .quiz-form-dan {
         min-width: 100vw;
+
     }
 }
