@@ -46,6 +46,11 @@
         color: $third-color;
         transform: scale(1.05);
         transition: .2s;
+    } 
+    
+    .active-dan {
+        text-decoration: 3px underline $third-color;
+        font-weight: bold;
     }
 }
 

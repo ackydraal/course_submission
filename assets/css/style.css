@@ -54,6 +54,10 @@
   transform: scale(1.05);
   transition: 0.2s;
 }
+.header-dan .active-dan {
+  text-decoration: 3px underline #00ADB5;
+  font-weight: bold;
+}
 
 .latest-article-section-dan {
   background-color: #393E46;
@@ -312,8 +316,7 @@
   box-shadow: none;
 }
 
-/* Media queries */
-/* For larger screen size from 992px wide and down */
+/* Media Queries */
 @media screen and (max-width: 992px) {
   .menu-dan a:hover {
     color: #00ADB5;
